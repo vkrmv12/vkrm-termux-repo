@@ -7748,6 +7748,21 @@ SHA256: 6a0757da3a43ad829f89e3a09fe866d5d323aabf1e0f52b4ee0e6ed3bbf6d805
 Homepage: https://people.redhat.com/sgrubb/libcap-ng/
 Description: Static libraries for libcap-ng
 
+Package: libcompiler-rt
+Version: 21.1.5
+Architecture: aarch64
+Maintainer: @finagolfin
+Installed-Size: 35844
+Depends: libc++
+Conflicts: libllvm (<< 21.1.3), ndk-multilib (<< 23b-6)
+Filename: pool/main/libcompiler-rt_21.1.5_aarch64.deb
+Size: 2801464
+MD5sum: 41b34ec3756f88762bd1389614618313
+SHA1: fd843ad62fcb4f8ffc75594f4f9acc1db69c517a
+SHA256: 9e3b981970d80cf9cfffdd3c05862457f7c721e22acf1806ceede8d4646732ca
+Homepage: https://clang.llvm.org/
+Description: Compiler runtime libraries for clang
+
 Package: libcrypt
 Version: 0.2-6
 Architecture: aarch64
@@ -10392,6 +10407,23 @@ SHA1: f8f81a5ca65b28789ad669ea2c437b4549b9fb31
 SHA256: 5c4e758c4d441311170cb60ef76637a06968b27b971004e4133d591689b57ed5
 Homepage: https://gnupg.org/related_software/libksba/
 Description: Static libraries for libksba
+
+Package: libllvm
+Version: 21.1.5
+Architecture: aarch64
+Maintainer: @finagolfin
+Installed-Size: 166484
+Depends: libc++, libffi, libxml2, ncurses, zlib, zstd
+Conflicts: gcc, clang (<< 3.9.1-3)
+Breaks: libclang, libclang-dev, libllvm-dev
+Replaces: gcc, libclang, libclang-dev, libllvm-dev
+Filename: pool/main/libllvm_21.1.5_aarch64.deb
+Size: 30079272
+MD5sum: 705c3693c735c28e311d9667eacbc036
+SHA1: 819146792ddc56c2c5f0b9b2d6dadd040210c6a3
+SHA256: 86370e8f5ebdfe1bd1a697c3ef6e079f42a279860fc3c0affc81a055a88c3813
+Homepage: https://clang.llvm.org/
+Description: Modular compiler and toolchain technologies library
 
 Package: libltdl
 Version: 2.5.4-2
@@ -18413,6 +18445,36 @@ SHA256: 153cdb49b8bed02955c4309a0b55053075df337ea7e1f52cd170d6b770dcb96b
 Homepage: http://www.littlecms.com/
 Description: Color management utilities
 
+Package: lld
+Version: 21.1.5
+Architecture: aarch64
+Maintainer: @finagolfin
+Installed-Size: 18688
+Depends: libllvm (= 21.1.5)
+Filename: pool/main/lld_21.1.5_aarch64.deb
+Size: 2627836
+MD5sum: 7f33f23272762d40de3691ee332a8fb2
+SHA1: a6feb6b6f8bdaeab01388c71dc5d31b939735130
+SHA256: d5e40df61e20222b1baf44da6241838af1a07dbbbdd55d19989af9792a08d0f2
+Homepage: https://clang.llvm.org/
+Description: LLVM-based linker
+
+Package: llvm
+Version: 21.1.5
+Architecture: aarch64
+Maintainer: @finagolfin
+Installed-Size: 68856
+Depends: libllvm (= 21.1.5)
+Breaks: libllvm (<< 11.0.0-1)
+Replaces: libllvm (<< 11.0.0-1)
+Filename: pool/main/llvm_21.1.5_aarch64.deb
+Size: 14583392
+MD5sum: 63afea4644ee079033da710fd4791bd3
+SHA1: d6a3ec6d4958f436d36372af80dcf47232da0e5b
+SHA256: d82bf32a98b70fb3cf0eb6c8e9e37f0f86fb724a1f7e606a5cbdccb5edf914ff
+Homepage: https://clang.llvm.org/
+Description: LLVM modular compiler and toolchain executables
+
 Package: lsof
 Version: 4.99.5-2
 Architecture: aarch64
@@ -19352,6 +19414,21 @@ SHA1: 914b328952d2f76fae75b45a230009c018281db7
 SHA256: 90b9e8001b2a601a5a1505b87a92e53658590ad2515fbfd3fd380ac7d24cf2fe
 Homepage: https://invisible-island.net/ncurses/
 Description: Tools for working with terminals
+
+Package: ndk-sysroot
+Version: 28c-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 20872
+Conflicts: libutil-dev, libgcc, libandroid-support-dev
+Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
+Filename: pool/main/ndk-sysroot_28c-1_aarch64.deb
+Size: 1762944
+MD5sum: d64c833945e5725a39d61f270019df41
+SHA1: e8ebf27f71a1fa883b00f5f83d20890db9a9fe76
+SHA256: 67bdaf9f1acfcd4f18fe95b2caa323223058877daed0266af64e3c64ca2e7dd2
+Homepage: https://developer.android.com/tools/sdk/ndk/index.html
+Description: System header and library files from the Android NDK needed for compiling C programs
 
 Package: net-tools
 Version: 2.10.0-1
