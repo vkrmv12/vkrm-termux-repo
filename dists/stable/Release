@@ -1,3 +1,7 @@
+Origin: vkrm-termux-repo
+Label: vkrm-termux-repo
+Suite: stable
+Codename: stable
 Date: Thu, 13 Nov 2025 12:13:56 +0000
 MD5Sum:
  d208c50644d9dce78b9fbb996170e65b               38 Release
