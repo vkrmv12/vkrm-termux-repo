@@ -1,0 +1,25 @@
+Origin: vkrm-termux
+Label: vkrm-termux
+Suite: stable
+Codename: stable
+Architectures: aarch64 arm i686 x86_64
+Components: main
+Description: Custom Termux repo for com.vkrm
+MD5Sum:
+ c94ae90302d57cc8b67e53f992a38a4e           174222 main/binary-aarch64/Packages
+ 0caed65f207deea66468f51920403613            57536 main/binary-aarch64/Packages.gz
+ 579f7de0cc975af02bb0602862e44071           171003 main/binary-arm/Packages
+ 8451e182a5e8ed020c0fcd7a1b3ead9f            57321 main/binary-arm/Packages.gz
+ b92a79bc4e84cc1ff128c9f0589b3c4e           171719 main/binary-i686/Packages
+ 68a871d988075168fcd54ed9d89a1a82            57296 main/binary-i686/Packages.gz
+ 5d421bd06d8965fbfbafbe21b66317ef           173074 main/binary-x86_64/Packages
+ 095820c2019c29e07f78288f47d81ef7            57339 main/binary-x86_64/Packages.gz
+SHA256:
+ c1802e9d02223f92e4385b3a0be0f5c0dce97b0d90bd39a3ea19f69fee2f0f8b           174222 main/binary-aarch64/Packages
+ 600d29d163cddfab60c67fa18f0252560c40172ad65585c4ee76f1447fd10537            57536 main/binary-aarch64/Packages.gz
+ bbda814ec2aca29fa2d898de81905691d0b935d7bff2a713ec9695c79716310e           171003 main/binary-arm/Packages
+ e636729ddce2232fdd82506b1a11af6ea6c583dfd5c839ffd11746998ef17bda            57321 main/binary-arm/Packages.gz
+ b5d0fb06fa02bc10a5c04cb732a05c22cea6d9f92352baff8115388a27c9488b           171719 main/binary-i686/Packages
+ da303bb97f0923fcebc0bc7ef122b8f78e80994901ac46dbd81cd47bb9ee9504            57296 main/binary-i686/Packages.gz
+ c7a104e621638281f74ff5329e4ab8d08cef6f02f64f9271af5f3a6c14b14fd7           173074 main/binary-x86_64/Packages
+ 2c2ac4bcd3d7c62c5d539f5dfffc866c1d5d73375ccc0bb33fb1e4f3907000ff            57339 main/binary-x86_64/Packages.gz
