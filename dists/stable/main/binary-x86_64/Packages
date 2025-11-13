@@ -5,7 +5,7 @@ Maintainer: @termux
 Installed-Size: 8732
 Depends: libc++
 Conflicts: libgrpc (<< 1.52.0-1)
-Filename: repo/pool/main/abseil-cpp_20250814.0_x86_64.deb
+Filename: ./abseil-cpp_20250814.0_x86_64.deb
 Size: 1180760
 MD5sum: 02e187425394c0508c0ed83f86435909
 SHA1: 305313b6666d41fb5ff12fd169e36c842a481bd1
@@ -19,7 +19,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 1092
 Depends: libc++, libaom (= 3.13.1)
-Filename: repo/pool/main/aom-tools_3.13.1_x86_64.deb
+Filename: ./aom-tools_3.13.1_x86_64.deb
 Size: 250616
 MD5sum: a167e79043d89a5d8ddf936e386345a8
 SHA1: 536444041dca8334892b9ec3a3aff58d38bab423
@@ -38,7 +38,7 @@ Suggests: gnupg
 Conflicts: apt-transport-https, libapt-pkg, unstable-repo, game-repo, science-repo
 Replaces: apt-transport-https, libapt-pkg, unstable-repo, game-repo, science-repo
 Provides: unstable-repo, game-repo, science-repo
-Filename: repo/pool/main/apt_2.8.1-2_x86_64.deb
+Filename: ./apt_2.8.1-2_x86_64.deb
 Size: 1161948
 MD5sum: 8b67f8fdcaeab5a961144f2445a88a18
 SHA1: 6748f30e704002631b3750d73e7fcb6c208d0e1d
@@ -52,7 +52,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 352
 Depends: libdb, apt (= 2.8.1-2)
-Filename: repo/pool/main/apt-ftparchive_2.8.1-2_x86_64.deb
+Filename: ./apt-ftparchive_2.8.1-2_x86_64.deb
 Size: 108136
 MD5sum: a436e363bd7f0f4cda60f2019c0eaeaa
 SHA1: c0fc9110622d59bb9073bb76ef2b08b3dc0cd54a
@@ -60,26 +60,12 @@ SHA256: d0216fb1091b936b5951ddc6acb8df71118b3e925bbbfa7c9e836e62fab49ee1
 Homepage: https://packages.debian.org/apt
 Description: apt-ftparchive is the command line tool that generates the index files that APT uses to access a distribution source
 
-Package: apt-transport-tor
-Version: 2.8.1-2
-Architecture: all
-Maintainer: @termux
-Installed-Size: 44
-Depends: tor, apt (= 2.8.1-2)
-Filename: repo/pool/main/apt-transport-tor_2.8.1-2_all.deb
-Size: 908
-MD5sum: 5893d3f0d84551b78ea1dae38645babb
-SHA1: d073a699b8bfb56421b8f906aa4065e81f069561
-SHA256: 3be567ca87b0501980ea9ced75da94531cadbf9f1093d2f88a951d9a6a69c17b
-Homepage: https://packages.debian.org/apt
-Description: APT transport for anonymous package downloads via Tor
-
 Package: argp
 Version: 1.5.0-1
 Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 104
-Filename: repo/pool/main/argp_1.5.0-1_x86_64.deb
+Filename: ./argp_1.5.0-1_x86_64.deb
 Size: 21952
 MD5sum: 3dcf4a45971415bdf1336c0a57d27a30
 SHA1: 67005e7a6107dab23a07675ccc0a25c491683c35
@@ -93,7 +79,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 192
 Depends: argp (= 1.5.0-1)
-Filename: repo/pool/main/argp-static_1.5.0-1_x86_64.deb
+Filename: ./argp-static_1.5.0-1_x86_64.deb
 Size: 42512
 MD5sum: 452940b9a375f0be87dd95b213127729
 SHA1: fc77a36abec032ac81b9b0d3a4ba0a324c7000f7
@@ -107,7 +93,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 2588
 Depends: libc++, c-ares, libgnutls, libxml2, zlib
-Filename: repo/pool/main/aria2_1.37.0-2_x86_64.deb
+Filename: ./aria2_1.37.0-2_x86_64.deb
 Size: 719492
 MD5sum: 3bb3b252782f02e165b3e515bc2a7e2a
 SHA1: ce2472cfa2c31157a276ae3c6fdc4156cc5e04bc
@@ -125,7 +111,7 @@ Depends: libandroid-support, libiconv, readline (>= 8.3), termux-tools
 Recommends: command-not-found, bash-completion
 Breaks: bash-dev
 Replaces: bash-dev
-Filename: repo/pool/main/bash_5.3.3-1_x86_64.deb
+Filename: ./bash_5.3.3-1_x86_64.deb
 Size: 989692
 MD5sum: 40cb652930f178730692d80e0c647869
 SHA1: 499940533c24f29cd19d9a2db6407eb215f4cece
@@ -140,7 +126,7 @@ Maintainer: @termux
 Installed-Size: 36
 Depends: binutils-bin
 Conflicts: binutils-is-llvm
-Filename: repo/pool/main/binutils_2.44-4_x86_64.deb
+Filename: ./binutils_2.44-4_x86_64.deb
 Size: 1108
 MD5sum: 6ff8744418e10717fd027a0941cbc52d
 SHA1: d49d192928d3f85aa6c5229a1d27117d4d19e01b
@@ -156,7 +142,7 @@ Installed-Size: 8340
 Depends: libc++, zlib, zstd, binutils-libs (= 2.44-4)
 Breaks: binutils (<< 2.39-3)
 Replaces: binutils (<< 2.39-3)
-Filename: repo/pool/main/binutils-bin_2.44-4_x86_64.deb
+Filename: ./binutils-bin_2.44-4_x86_64.deb
 Size: 1888016
 MD5sum: 652d08a99d56db63805e5689041cb1ca
 SHA1: 8bdd24eb2a7d9dc23d1b7e969c0e0f00b0207261
@@ -169,7 +155,7 @@ Version: 2.44-4
 Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 12644
-Filename: repo/pool/main/binutils-cross_2.44-4_x86_64.deb
+Filename: ./binutils-cross_2.44-4_x86_64.deb
 Size: 2107808
 MD5sum: 519e21775f94846d0df5fd352bfed5fb
 SHA1: 1b1d635ecddf0f261e8f970c15c014345f47ca83
@@ -183,7 +169,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 3908
 Depends: libc++, zlib, zstd
-Filename: repo/pool/main/binutils-gold_2.44-4_x86_64.deb
+Filename: ./binutils-gold_2.44-4_x86_64.deb
 Size: 938988
 MD5sum: 6ed7ea9a072f5d547d882779bf59f484
 SHA1: 27e3b6baa427bf8ee487b22f70626ac45f7ae682
@@ -199,7 +185,7 @@ Installed-Size: 8564
 Depends: zlib, zstd
 Breaks: binutils (<< 2.39), binutils-dev
 Replaces: binutils (<< 2.39), binutils-dev
-Filename: repo/pool/main/binutils-libs_2.44-4_x86_64.deb
+Filename: ./binutils-libs_2.44-4_x86_64.deb
 Size: 951460
 MD5sum: 50a7f5a32fb91c22c7bb9f9b48144e8c
 SHA1: 71e915ad2fd2b4f851bdd5467630624c06c712e7
@@ -215,7 +201,7 @@ Installed-Size: 900
 Depends: libblkid, libmount, libsmartcols, libuuid
 Breaks: util-linux (<< 2.38.1-1)
 Replaces: util-linux (<< 2.38.1-1)
-Filename: repo/pool/main/blk-utils_2.41.2_x86_64.deb
+Filename: ./blk-utils_2.41.2_x86_64.deb
 Size: 193016
 MD5sum: 38a2066e59e05550400f8e9145458509
 SHA1: 9bc8e79dbe57f7b5c1bfcb7860ee6fca568d3aa7
@@ -230,7 +216,7 @@ Maintainer: @termux
 Installed-Size: 1124
 Breaks: brotli-dev
 Replaces: brotli-dev
-Filename: repo/pool/main/brotli_1.2.0_x86_64.deb
+Filename: ./brotli_1.2.0_x86_64.deb
 Size: 371072
 MD5sum: 10d87ff74c69c0a8b3b8be5280533b2f
 SHA1: 5972d16053f3d623a49ff5843d838ccb4c415b5b
@@ -245,7 +231,7 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 120
 Depends: libbz2 (= 1.0.8-8)
-Filename: repo/pool/main/bzip2_1.0.8-8_x86_64.deb
+Filename: ./bzip2_1.0.8-8_x86_64.deb
 Size: 26888
 MD5sum: 2f6e3951470e4b8fa7e6555c979e1fef
 SHA1: ebb8843f31d61fa6bfe537fec5350c01e63ada93
@@ -261,7 +247,7 @@ Installed-Size: 1096
 Depends: resolv-conf
 Breaks: c-ares-dev
 Replaces: c-ares-dev
-Filename: repo/pool/main/c-ares_1.34.5-1_x86_64.deb
+Filename: ./c-ares_1.34.5-1_x86_64.deb
 Size: 202276
 MD5sum: 6fa5c5f53a6d972d08a662d3063c3e71
 SHA1: 5ea7b476debd0c3a738cbf8543830e32f05c0dba
@@ -269,40 +255,13 @@ SHA256: cdc6834d1071ec609e3ddd7eb22fb08adf5807df781a0a25a6c0bd653d4fa4ee
 Homepage: https://c-ares.org/
 Description: Library for asynchronous DNS requests (including name resolves)
 
-Package: ca-certificates
-Version: 1:2025.11.04
-Architecture: all
-Maintainer: @termux
-Installed-Size: 272
-Filename: repo/pool/main/ca-certificates_1:2025.11.04_all.deb
-Size: 127220
-MD5sum: 141ea5b65bb10698d82c42749c3e57b2
-SHA1: b8b007ae36a11d5f87bf71160c678ac80843c635
-SHA256: 3f9b6f0db2ab9dbccedca1139ee11a7c29e48f4f7e930198d14fa7ba8403c430
-Homepage: https://curl.se/docs/caextract.html
-Description: Common CA certificates
-
-Package: ca-certificates-java
-Version: 1:2025.11.04
-Architecture: all
-Maintainer: @termux
-Installed-Size: 212
-Depends: ca-certificates (= 1:2025.11.04)
-Filename: repo/pool/main/ca-certificates-java_1:2025.11.04_all.deb
-Size: 116608
-MD5sum: 22696f20049860169f9e1d9d89099fc7
-SHA1: 7c368c36becf174e8b02fe6acde9457913348d33
-SHA256: f7bfb903234eaa36c6d2f70450893a870c9cdf331e374684d4e7d01a61a95b91
-Homepage: https://curl.se/docs/caextract.html
-Description: Common CA certificates (java keystore format)
-
 Package: check
 Version: 0.15.2-3
 Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 560
 Depends: libtool, pkg-config, texinfo
-Filename: repo/pool/main/check_0.15.2-3_x86_64.deb
+Filename: ./check_0.15.2-3_x86_64.deb
 Size: 98144
 MD5sum: de53a7af651b06e617e86ec697c070e2
 SHA1: 4523247a8013d87ace190474b09aa1616d1c4d4e
@@ -316,7 +275,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 124
 Depends: check (= 0.15.2-3)
-Filename: repo/pool/main/check-static_0.15.2-3_x86_64.deb
+Filename: ./check-static_0.15.2-3_x86_64.deb
 Size: 22228
 MD5sum: 753d8b61928dd41948bf766c92d2f6e8
 SHA1: a988c4ba1b51766a194b0f5818ec1076909aa621
@@ -330,7 +289,7 @@ Architecture: x86_64
 Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
 Installed-Size: 88
 Depends: libc++
-Filename: repo/pool/main/command-not-found_3.2-3_x86_64.deb
+Filename: ./command-not-found_3.2-3_x86_64.deb
 Size: 17332
 MD5sum: 192247157e1f58855f462effb581c7b1
 SHA1: 169e0575300eb05009f871df2e3aab7fcc745f12
@@ -347,7 +306,7 @@ Installed-Size: 2660
 Depends: libandroid-selinux, libandroid-support, libgmp, libiconv, openssl (>= 1:3.5.0-1)
 Breaks: chroot, busybox (<< 1.30.1-4)
 Replaces: chroot, busybox (<< 1.30.1-4)
-Filename: repo/pool/main/coreutils_9.8-1_x86_64.deb
+Filename: ./coreutils_9.8-1_x86_64.deb
 Size: 810516
 MD5sum: 7cd1ca99eeff34b9c1b21bf1667dbc20
 SHA1: 4afbef50cf21d087d7f2fb8b4064731d4b87936f
@@ -362,7 +321,7 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 420
 Depends: libcurl (= 8.17.0)
-Filename: repo/pool/main/curl_8.17.0_x86_64.deb
+Filename: ./curl_8.17.0_x86_64.deb
 Size: 242268
 MD5sum: 201dde3357708aad6c50bd388b22a133
 SHA1: 3088c15419c374eea1a3fb02724bbeccdd99f1ca
@@ -376,7 +335,7 @@ Architecture: x86_64
 Essential: yes
 Maintainer: @termux
 Installed-Size: 176
-Filename: repo/pool/main/dash_0.5.12-1_x86_64.deb
+Filename: ./dash_0.5.12-1_x86_64.deb
 Size: 68504
 MD5sum: d950349d5daaa32ab989d7fb34ade021
 SHA1: 8622591e59f82c8c438eca06275d69a9681fb1bd
@@ -390,7 +349,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 256
 Depends: libdb (= 18.1.40-5)
-Filename: repo/pool/main/db_18.1.40-5_x86_64.deb
+Filename: ./db_18.1.40-5_x86_64.deb
 Size: 42608
 MD5sum: b2a5e9ea02fa5e2df0cc5402e85df907
 SHA1: 855d86669709e2e7ccd56f2c709e85de5851c00b
@@ -406,7 +365,7 @@ Installed-Size: 1732
 Depends: libexpat, libx11
 Breaks: dbus-dev
 Replaces: dbus-dev
-Filename: repo/pool/main/dbus_1.16.2-2_x86_64.deb
+Filename: ./dbus_1.16.2-2_x86_64.deb
 Size: 448536
 MD5sum: ff5a76925f6b9ba9161f9579c75b5f4e
 SHA1: 00604c8c1a6e688d26fc29bd3c99566d2d4b6a15
@@ -419,7 +378,7 @@ Version: 5.23.2-1
 Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 116
-Filename: repo/pool/main/debianutils_5.23.2-1_x86_64.deb
+Filename: ./debianutils_5.23.2-1_x86_64.deb
 Size: 17080
 MD5sum: d10e3703e654fd4bfa551756e7366858
 SHA1: 3695d02a7d201cb00bd7f12af69c2184a4a5086a
@@ -433,7 +392,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 276
 Depends: libandroid-support, ncurses
-Filename: repo/pool/main/dialog_1.3-20240307-1_x86_64.deb
+Filename: ./dialog_1.3-20240307-1_x86_64.deb
 Size: 109124
 MD5sum: 2ee790461f5a4fa6b4442201977bf8af
 SHA1: c9c804ae3baf3b1d4290ee4371e13f529ac4749e
@@ -447,7 +406,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 436
 Depends: dialog (= 1.3-20240307-1)
-Filename: repo/pool/main/dialog-static_1.3-20240307-1_x86_64.deb
+Filename: ./dialog-static_1.3-20240307-1_x86_64.deb
 Size: 96888
 MD5sum: 456ff98289da06e010ac13e8a693a836
 SHA1: bb31d4ac020483f3ba4345c1d1adc423535813eb
@@ -462,7 +421,7 @@ Essential: yes
 Maintainer: Joshua Kahn @TomJo2000
 Installed-Size: 668
 Depends: libiconv
-Filename: repo/pool/main/diffutils_3.12-2_x86_64.deb
+Filename: ./diffutils_3.12-2_x86_64.deb
 Size: 172632
 MD5sum: 0c3531f92b90d3c1243889b9a0c90ad7
 SHA1: d7fb37d838db89b9c1d603302ef9b4c4bf1cd8d0
@@ -470,42 +429,13 @@ SHA256: c35c3f6bfb2aa285d6eb6192ac56b01feb582df17094ad9d64969412173635e1
 Homepage: https://www.gnu.org/software/diffutils/
 Description: Programs (cmp, diff, diff3 and sdiff) related to finding differences between files
 
-Package: docbook-xml
-Version: 5.1-1
-Architecture: all
-Maintainer: @termux
-Installed-Size: 2412
-Depends: libxml2-utils
-Breaks: docbook-xsl (<= 1.79.2-1)
-Filename: repo/pool/main/docbook-xml_5.1-1_all.deb
-Size: 78224
-MD5sum: 399c2681a46797ea7c285f069475cccc
-SHA1: 7bc0f06724539fa73f47bb08201e742feaaafb0f
-SHA256: 134b9738a1a474025b4ceea4f309f0dc7cef35e00f76f06f236302700c53ff55
-Homepage: https://www.oasis-open.org/docbook/
-Description: A widely used XML scheme for writing documentation and help
-
-Package: docbook-xsl
-Version: 1.79.2-4
-Architecture: all
-Maintainer: @termux
-Installed-Size: 33404
-Depends: docbook-xml (>= 5.1), libxml2-utils, xsltproc
-Filename: repo/pool/main/docbook-xsl_1.79.2-4_all.deb
-Size: 1233768
-MD5sum: 663a82474d5857c821aba81ff13dc1a2
-SHA1: 4363fb81b8ded70c4460be2ce7406673e474dc59
-SHA256: 1cb5358790ffd525a608da3923f046d837a5c8fa3e0542bfa45ea0207c68a155
-Homepage: https://docbook.org/
-Description: XML stylesheets for Docbook-xml transformations
-
 Package: dos2unix
 Version: 7.5.2-1
 Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 340
 Depends: libandroid-support
-Filename: repo/pool/main/dos2unix_7.5.2-1_x86_64.deb
+Filename: ./dos2unix_7.5.2-1_x86_64.deb
 Size: 65836
 MD5sum: 36aeb9e46f7fa8642e634c0b4a5fcac2
 SHA1: 9fdfd7d91c4a118ff8ca5b18d290efb3efd32a39
@@ -522,7 +452,7 @@ Installed-Size: 1328
 Depends: bzip2, coreutils, diffutils, gzip, less, libbz2, liblzma, libmd, tar, xz-utils, zlib, zstd
 Breaks: dpkg-dev
 Replaces: dpkg-dev
-Filename: repo/pool/main/dpkg_1.22.6-5_x86_64.deb
+Filename: ./dpkg_1.22.6-5_x86_64.deb
 Size: 317736
 MD5sum: 90cd1a4ee05db34c5a68caea0e82e3c9
 SHA1: 4dd4e39163dc9ea9b5779997ffb20b709dfe627f
@@ -530,40 +460,12 @@ SHA256: 85c569d58ae98bcd3f525a28acf8776ca8ba0c025c1209fa34bdb7d96f04a40b
 Homepage: https://packages.debian.org/dpkg
 Description: Debian package management system
 
-Package: dpkg-perl
-Version: 1.22.6-5
-Architecture: all
-Maintainer: @termux
-Installed-Size: 940
-Depends: perl, clang, make, dpkg (= 1.22.6-5)
-Filename: repo/pool/main/dpkg-perl_1.22.6-5_all.deb
-Size: 126256
-MD5sum: d4e5fa4f50b5b87a14615b2f361e3de4
-SHA1: 748f6ba637d1ad60bfe0e593dca3e153427ffb29
-SHA256: ebb7e5cf1022a9043eee49143c15fa05117f0fc3060a0a688029f7a9da0b7472
-Homepage: https://packages.debian.org/dpkg
-Description: Perl modules for dpkg
-
-Package: dpkg-scanpackages
-Version: 1.22.6-5
-Architecture: all
-Maintainer: @termux
-Installed-Size: 56
-Depends: dpkg-perl, dpkg (= 1.22.6-5)
-Filename: repo/pool/main/dpkg-scanpackages_1.22.6-5_all.deb
-Size: 6500
-MD5sum: ef3cc19b3687528e2845415cf6ccc16e
-SHA1: 00ec1e2e3f92c2fefbf89f61c8e96a1885bde28d
-SHA256: f597b92eda21649a05651617f36af84904151aa7342dc626830e579874261c3c
-Homepage: https://packages.debian.org/dpkg
-Description: Creates Packages index files
-
 Package: ed
 Version: 1.22.2-1
 Architecture: x86_64
 Maintainer: Oliver Schmidhauser @Neo-Oli
 Installed-Size: 180
-Filename: repo/pool/main/ed_1.22.2-1_x86_64.deb
+Filename: ./ed_1.22.2-1_x86_64.deb
 Size: 44240
 MD5sum: c60815fd7243d2de0fd15c3c57395c1d
 SHA1: 33b4986e698ce9682e98609e3e4a8688305190ee
@@ -577,7 +479,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 464
 Depends: libfdisk, libmount, ncurses, readline, libsmartcols
-Filename: repo/pool/main/fdisk_2.41.2_x86_64.deb
+Filename: ./fdisk_2.41.2_x86_64.deb
 Size: 122404
 MD5sum: 16dd89adb3194568a5e6ef843b171147
 SHA1: ee79f0f2c7e8e6cd9aeb13bfa35fa3b11b5d1e5c
@@ -594,7 +496,7 @@ Depends: fontconfig, freetype, fribidi, game-music-emu, glslang, harfbuzz, libao
 Conflicts: libav
 Breaks: ffmpeg-dev
 Replaces: ffmpeg-dev
-Filename: repo/pool/main/ffmpeg_7.1.2_x86_64.deb
+Filename: ./ffmpeg_7.1.2_x86_64.deb
 Size: 11070124
 MD5sum: 6c4bb0a1924f46e69797515e69cd89fc
 SHA1: 711596d1324e7e4210e97296ab2002877f6c6d30
@@ -609,7 +511,7 @@ Maintainer: @termux
 Installed-Size: 4248
 Breaks: fftw-dev
 Replaces: fftw-dev
-Filename: repo/pool/main/fftw_3.3.10-4_x86_64.deb
+Filename: ./fftw_3.3.10-4_x86_64.deb
 Size: 1131216
 MD5sum: 33c00a19b3a57756e88da4ddff10cc9e
 SHA1: af6d1633fac8dc806a1e3b8fae3b1b0dc338f4fa
@@ -623,7 +525,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 7968
 Depends: fftw (= 3.3.10-4)
-Filename: repo/pool/main/fftw-static_3.3.10-4_x86_64.deb
+Filename: ./fftw-static_3.3.10-4_x86_64.deb
 Size: 1033036
 MD5sum: 367f6d31d7450b28294df18d3a1d6729
 SHA1: 2917c0a17b32976b69630ddde1d1c42472385a76
@@ -638,7 +540,7 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 884
 Depends: libandroid-support
-Filename: repo/pool/main/findutils_4.10.0-1_x86_64.deb
+Filename: ./findutils_4.10.0-1_x86_64.deb
 Size: 261476
 MD5sum: ee7f336277d3b20dc119c3e71af65c63
 SHA1: e709e6fd30727145c835bda16971b7ccb6dd9607
@@ -652,7 +554,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 336
 Depends: libflac (= 1.5.0-1)
-Filename: repo/pool/main/flac_1.5.0-1_x86_64.deb
+Filename: ./flac_1.5.0-1_x86_64.deb
 Size: 110944
 MD5sum: 7b07e562659b8b45b5114e71a4c2e1b1
 SHA1: ecc04048887c400b30efcdd81d46fb8d3d588875
@@ -668,7 +570,7 @@ Installed-Size: 708
 Depends: freetype, libexpat, ttf-dejavu
 Breaks: fontconfig-dev
 Replaces: fontconfig-dev
-Filename: repo/pool/main/fontconfig_2.17.1-1_x86_64.deb
+Filename: ./fontconfig_2.17.1-1_x86_64.deb
 Size: 129324
 MD5sum: 8070b36a6d0938e5f90e5794db2293fa
 SHA1: 2972c4e8336205737172cfae06c9df191c9f9e1e
@@ -682,7 +584,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 516
 Depends: fontconfig (= 2.17.1-1)
-Filename: repo/pool/main/fontconfig-static_2.17.1-1_x86_64.deb
+Filename: ./fontconfig-static_2.17.1-1_x86_64.deb
 Size: 121932
 MD5sum: 169d945cf103ccd28085b3d797f934ff
 SHA1: 742b648b332604727435460e5871d27b96e70fd9
@@ -696,7 +598,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 128
 Depends: fontconfig (= 2.17.1-1)
-Filename: repo/pool/main/fontconfig-utils_2.17.1-1_x86_64.deb
+Filename: ./fontconfig-utils_2.17.1-1_x86_64.deb
 Size: 14952
 MD5sum: fe04b3534839350c9f87edea16acb294
 SHA1: 544682d812f1ba32e65af1c8101f6c57488fb03f
@@ -712,7 +614,7 @@ Installed-Size: 1728
 Depends: brotli, libbz2, libpng, zlib
 Breaks: freetype-dev
 Replaces: freetype-dev
-Filename: repo/pool/main/freetype_2.14.1_x86_64.deb
+Filename: ./freetype_2.14.1_x86_64.deb
 Size: 434604
 MD5sum: 4209e693a5d5a6de8924b671069826ca
 SHA1: 9e6b0e879b6990222f00dad286c4bf1ebaf78077
@@ -726,7 +628,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 960
 Depends: freetype (= 2.14.1)
-Filename: repo/pool/main/freetype-static_2.14.1_x86_64.deb
+Filename: ./freetype-static_2.14.1_x86_64.deb
 Size: 316188
 MD5sum: 2254cf3a6540e2e2e211a62e71d4fde0
 SHA1: cf555ca4e07f252e159c56a8112b8fde1a16e3bd
@@ -742,7 +644,7 @@ Installed-Size: 444
 Depends: glib
 Breaks: fribidi-dev
 Replaces: fribidi-dev
-Filename: repo/pool/main/fribidi_1.0.16-1_x86_64.deb
+Filename: ./fribidi_1.0.16-1_x86_64.deb
 Size: 65420
 MD5sum: 7aec1fab14f832d511c2e64f33dcb8fa
 SHA1: 87082a0f1fdc6c2cbbcfd681feab4ef99d768812
@@ -756,7 +658,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 176
 Depends: fribidi (= 1.0.16-1)
-Filename: repo/pool/main/fribidi-static_1.0.16-1_x86_64.deb
+Filename: ./fribidi-static_1.0.16-1_x86_64.deb
 Size: 20336
 MD5sum: 7497ffdb04bf020466faad744cb1cce0
 SHA1: 5fdf4de32a2a09e6215163a0e45d128a1d0e8834
@@ -772,7 +674,7 @@ Installed-Size: 1080
 Depends: ldd, python, gobject-introspection (= 1.86.0)
 Breaks: gobject-introspection (<< 1.74.0-1)
 Replaces: gobject-introspection (<< 1.74.0-1)
-Filename: repo/pool/main/g-ir-scanner_1.86.0_x86_64.deb
+Filename: ./g-ir-scanner_1.86.0_x86_64.deb
 Size: 131904
 MD5sum: d1808699e93aaa8e690c4af8c73337b7
 SHA1: 4bed1627a152cefa4a089eb4e7aaf0b3d3cf8dc2
@@ -786,7 +688,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 444
 Depends: libc++, zlib
-Filename: repo/pool/main/game-music-emu_0.6.4-1_x86_64.deb
+Filename: ./game-music-emu_0.6.4-1_x86_64.deb
 Size: 146732
 MD5sum: f4720e0dd2c1b4ada884acc0495f0055
 SHA1: 1ea267a89f5681000c791081ecec631880d2ee9e
@@ -800,7 +702,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 836
 Depends: game-music-emu (= 0.6.4-1)
-Filename: repo/pool/main/game-music-emu-static_0.6.4-1_x86_64.deb
+Filename: ./game-music-emu-static_0.6.4-1_x86_64.deb
 Size: 179456
 MD5sum: d0b6552d0e7517ef8752fdf3b31ef63f
 SHA1: 41e01d4dd2cfdce6c6dcfaa9821695e8a895eac9
@@ -817,7 +719,7 @@ Installed-Size: 3208
 Depends: libandroid-support, libgmp, libmpfr, readline
 Breaks: gawk-dev
 Replaces: gawk-dev
-Filename: repo/pool/main/gawk_5.3.1-2_x86_64.deb
+Filename: ./gawk_5.3.1-2_x86_64.deb
 Size: 803852
 MD5sum: 8a672ed9ac3ef47683fd2427561dee5f
 SHA1: 5411bd71e8d1ad145249dbfc8e6b9994dbfda750
@@ -831,7 +733,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 172
 Depends: gawk (= 5.3.1-2)
-Filename: repo/pool/main/gawk-static_5.3.1-2_x86_64.deb
+Filename: ./gawk-static_5.3.1-2_x86_64.deb
 Size: 24672
 MD5sum: 415a3b209a1c53dd35224a6c02ec9d95
 SHA1: 102beb173b28bddbb0ef3ef5213b508f963e9a07
@@ -847,7 +749,7 @@ Installed-Size: 580
 Depends: readline
 Breaks: gdbm-dev
 Replaces: gdbm-dev
-Filename: repo/pool/main/gdbm_1.26-1_x86_64.deb
+Filename: ./gdbm_1.26-1_x86_64.deb
 Size: 155236
 MD5sum: 722e9a39461ce00fde43545ce8b339a4
 SHA1: 959e0f7fd159041b51b4814e8cb05b82c4675e1a
@@ -861,7 +763,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 180
 Depends: gdbm (= 1.26-1)
-Filename: repo/pool/main/gdbm-static_1.26-1_x86_64.deb
+Filename: ./gdbm-static_1.26-1_x86_64.deb
 Size: 32308
 MD5sum: 6cb02705d6928d305cb160b1c277babf
 SHA1: 6b7f33d3b5453ca561d406129d7aca47a312f736
@@ -876,7 +778,7 @@ Maintainer: @termux
 Installed-Size: 100
 Breaks: giflib-dev
 Replaces: giflib-dev
-Filename: repo/pool/main/giflib_5.2.2-1_x86_64.deb
+Filename: ./giflib_5.2.2-1_x86_64.deb
 Size: 19816
 MD5sum: 4ddca384e0fe6d4225bd50ab01e7dd16
 SHA1: cc6bd3d2886e2cc5145f8f4aacdc9cd7b4d2c2a4
@@ -890,7 +792,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 80
 Depends: giflib (= 5.2.2-1)
-Filename: repo/pool/main/giflib-static_5.2.2-1_x86_64.deb
+Filename: ./giflib-static_5.2.2-1_x86_64.deb
 Size: 16584
 MD5sum: 08cf564aafcdea4a36bdb8fc16fff44a
 SHA1: fc03fedafc01b0447fb299d70ead740de7d88f43
@@ -905,7 +807,7 @@ Maintainer: @termux
 Installed-Size: 308
 Depends: giflib (= 5.2.2-1)
 Conflicts: giflib (<< 5.1.4-4)
-Filename: repo/pool/main/giflib-utils_5.2.2-1_x86_64.deb
+Filename: ./giflib-utils_5.2.2-1_x86_64.deb
 Size: 55252
 MD5sum: d33aee46bb4f9c34e1380e6ba0e58170
 SHA1: 191ed6bc39fb79aae658bd6bfb47006bc6e2323b
@@ -921,7 +823,7 @@ Installed-Size: 20652
 Depends: libandroid-support, libffi, libiconv, pcre2, resolv-conf, zlib, python
 Breaks: glib-dev, glib-bin
 Replaces: glib-dev, glib-bin
-Filename: repo/pool/main/glib_2.86.1_x86_64.deb
+Filename: ./glib_2.86.1_x86_64.deb
 Size: 2614212
 MD5sum: d849365c93218a61a3b608e5fc8e1adf
 SHA1: 0b011c7b506633bf5e7d432285b3aed15dccd166
@@ -929,27 +831,13 @@ SHA256: cb28e367e2247901a5dadbd81d0c86c10f939a68e3a805111fe5b95f20b698fd
 Homepage: https://developer.gnome.org/glib/
 Description: Library providing core building blocks for libraries and applications written in C
 
-Package: glib-cross
-Version: 2.86.1
-Architecture: all
-Maintainer: @termux
-Installed-Size: 82128
-Depends: glib (= 2.86.1)
-Filename: repo/pool/main/glib-cross_2.86.1_all.deb
-Size: 12126840
-MD5sum: 37b3c2ecdce58575ccc1deb3ede08dfb
-SHA1: 29970e398cd72e8d50e9651877ae9f21777b1983
-SHA256: d4494d7e9eeb90d8f52c2ef6bdad05b0f7c7de50d35d7627f5008c5c9aad27cf
-Homepage: https://developer.gnome.org/glib/
-Description: glib for host (NOT for Termux)
-
 Package: glslang
 Version: 16.0.0-1
 Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 16412
 Depends: libc++
-Filename: repo/pool/main/glslang_16.0.0-1_x86_64.deb
+Filename: ./glslang_16.0.0-1_x86_64.deb
 Size: 2615172
 MD5sum: 1c4beb9c04acf25c7d4f88cc36119526
 SHA1: 7773c66f8e7572aeef116a4a347485f4b3f04ce5
@@ -966,7 +854,7 @@ Depends: libassuan, libbz2, libgcrypt, libgnutls, libgpg-error, libksba, libnpth
 Suggests: scdaemon
 Conflicts: gnupg2 (<< 2.2.9-1), dirmngr (<< 2.2.17-1)
 Replaces: gnupg2 (<< 2.2.9-1), dirmngr (<< 2.2.17-1)
-Filename: repo/pool/main/gnupg_2.5.11_x86_64.deb
+Filename: ./gnupg_2.5.11_x86_64.deb
 Size: 1490432
 MD5sum: f2f1f20d92dad9792863d5be6c5f20ed
 SHA1: f4cbb52343ab98828423f5e03a7bfe761f13f07a
@@ -980,7 +868,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 920
 Depends: libgnutls (= 3.8.10)
-Filename: repo/pool/main/gnutls_3.8.10_x86_64.deb
+Filename: ./gnutls_3.8.10_x86_64.deb
 Size: 190836
 MD5sum: f23c65c6b70ba0908f5cd863d22988d9
 SHA1: c8cf51a30bb5a5cdd6869ba0903e1f5ec888098c
@@ -995,7 +883,7 @@ Maintainer: @termux
 Installed-Size: 1448
 Depends: glib, libffi
 Suggests: g-ir-scanner
-Filename: repo/pool/main/gobject-introspection_1.86.0_x86_64.deb
+Filename: ./gobject-introspection_1.86.0_x86_64.deb
 Size: 210896
 MD5sum: 1755879d4ec1ee6a2ab73678f42cfa22
 SHA1: c65030aeb9b0a7edcc962ade35ec9f1e7c2eb4ed
@@ -1009,7 +897,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 496
 Depends: libassuan, libbz2, libgcrypt, libgpg-error, libnpth, zlib
-Filename: repo/pool/main/gpgv_2.5.11_x86_64.deb
+Filename: ./gpgv_2.5.11_x86_64.deb
 Size: 204200
 MD5sum: 993c414698aa2275164cd5ebed8fd58d
 SHA1: 1db231a3407bebb25601fc0551db666177efe124
@@ -1024,7 +912,7 @@ Essential: yes
 Maintainer: Joshua Kahn @TomJo2000
 Installed-Size: 456
 Depends: libandroid-support, pcre2
-Filename: repo/pool/main/grep_3.12-2_x86_64.deb
+Filename: ./grep_3.12-2_x86_64.deb
 Size: 136484
 MD5sum: 1e7f13cc85171e5f605ea99cf5488b70
 SHA1: b998b7a134858f8998396d06b317f2a1e6de1b8b
@@ -1038,7 +926,7 @@ Architecture: x86_64
 Essential: yes
 Maintainer: @termux
 Installed-Size: 332
-Filename: repo/pool/main/gzip_1.14-1_x86_64.deb
+Filename: ./gzip_1.14-1_x86_64.deb
 Size: 94152
 MD5sum: fe41a1687a42ad8a25241ea8bbe0dcb8
 SHA1: c45eab33bef41b312bcc0c3eb313e04ae2cd13cf
@@ -1054,7 +942,7 @@ Installed-Size: 4472
 Depends: freetype, glib, libcairo, libgraphite
 Breaks: harfbuzz-dev
 Replaces: harfbuzz-dev
-Filename: repo/pool/main/harfbuzz_12.2.0_x86_64.deb
+Filename: ./harfbuzz_12.2.0_x86_64.deb
 Size: 790620
 MD5sum: 5a5c2f2a2cecacfd68a4b31a020636c8
 SHA1: bd88d40512e865440a6a5602e7b65c449f1e1836
@@ -1070,7 +958,7 @@ Installed-Size: 56
 Depends: libicu, harfbuzz (= 12.2.0)
 Breaks: harfbuzz (<< 7.0.0)
 Replaces: harfbuzz (<< 7.0.0)
-Filename: repo/pool/main/harfbuzz-icu_12.2.0_x86_64.deb
+Filename: ./harfbuzz-icu_12.2.0_x86_64.deb
 Size: 4444
 MD5sum: 360ef61e56b6b2a22c57cb64b5beab40
 SHA1: e4bbc92ea95586d4c02b4f62301683624dfea3aa
@@ -1084,7 +972,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 264
 Depends: harfbuzz (= 12.2.0)
-Filename: repo/pool/main/harfbuzz-utils_12.2.0_x86_64.deb
+Filename: ./harfbuzz-utils_12.2.0_x86_64.deb
 Size: 58832
 MD5sum: 866c00d52d45cebc42680865a32f7986
 SHA1: 50a8df9c929fa4f4447573dabe5e4688ba2d7f7e
@@ -1098,7 +986,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 56
 Depends: libiconv (= 1.18-1)
-Filename: repo/pool/main/iconv_1.18-1_x86_64.deb
+Filename: ./iconv_1.18-1_x86_64.deb
 Size: 10160
 MD5sum: a8157302f572351eff41c0009d00f9c8
 SHA1: 78bfc28b4386034807f9c27a661aea1a36ac24e7
@@ -1112,7 +1000,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 960
 Depends: libicu (= 77.1-2)
-Filename: repo/pool/main/icu-devtools_77.1-2_x86_64.deb
+Filename: ./icu-devtools_77.1-2_x86_64.deb
 Size: 227708
 MD5sum: 559fac32593ca3669a35f0eebcc291dc
 SHA1: 596c85d740cdd590519f87c3d13038d711f015cb
@@ -1127,7 +1015,7 @@ Maintainer: @termux
 Installed-Size: 1024
 Depends: readline
 Suggests: whois
-Filename: repo/pool/main/inetutils_2.6-1_x86_64.deb
+Filename: ./inetutils_2.6-1_x86_64.deb
 Size: 232516
 MD5sum: 3afabcd23027035c68ca7b8edd489fbc
 SHA1: cb547eb53f5af8522e156a744d9ec0cc839d098a
@@ -1141,7 +1029,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 156
 Depends: libc++, libsndfile
-Filename: repo/pool/main/ladspa-sdk_1.17-2_x86_64.deb
+Filename: ./ladspa-sdk_1.17-2_x86_64.deb
 Size: 23344
 MD5sum: c645334bd2eb6dcb2062ba4ae13437d8
 SHA1: 5424f67b4b0254b2e7f8da895a36072759c8b26b
@@ -1155,7 +1043,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 628
 Depends: ncurses, libmp3lame (= 3.100-7)
-Filename: repo/pool/main/lame_3.100-7_x86_64.deb
+Filename: ./lame_3.100-7_x86_64.deb
 Size: 199548
 MD5sum: ece7a92434534196474bb28e43707c0f
 SHA1: d7770b25f89e61dd6a5fe0154c356227dbed3cea
@@ -1170,7 +1058,7 @@ Maintainer: @termux
 Installed-Size: 44
 Depends: bash, binutils-bin
 Conflicts: binutils (<< 2.39-1)
-Filename: repo/pool/main/ldd_0.3_x86_64.deb
+Filename: ./ldd_0.3_x86_64.deb
 Size: 1824
 MD5sum: 9488e960f43060369f2832f08b3f36d7
 SHA1: d30561a30cd19271de1ea40ae10fb8b6854e849e
@@ -1186,7 +1074,7 @@ Maintainer: Joshua Kahn @TomJo2000
 Installed-Size: 364
 Depends: ncurses, pcre2
 Replaces: lazyread
-Filename: repo/pool/main/less_685_x86_64.deb
+Filename: ./less_685_x86_64.deb
 Size: 136764
 MD5sum: 80f25915dd2f46f0b9cdc273ecd137b4
 SHA1: 3d19b59518af76542652a868ffc8ac3de2498ba2
@@ -1201,7 +1089,7 @@ Maintainer: @termux
 Installed-Size: 88
 Conflicts: libexecinfo
 Provides: libexecinfo
-Filename: repo/pool/main/libandroid-execinfo_0.1-3_x86_64.deb
+Filename: ./libandroid-execinfo_0.1-3_x86_64.deb
 Size: 15172
 MD5sum: c5477370b6552e14d10b64e9e9d3bab0
 SHA1: dd43c2aa27a72dfc4293cc42ec5463ba603bee45
@@ -1215,7 +1103,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 36
 Depends: libandroid-execinfo (= 0.1-3)
-Filename: repo/pool/main/libandroid-execinfo-static_0.1-3_x86_64.deb
+Filename: ./libandroid-execinfo-static_0.1-3_x86_64.deb
 Size: 2332
 MD5sum: 06200671edc39a4472f3faba69ff908e
 SHA1: 8643755f60eb72ea9ed3bf96f080a8246bfa65f1
@@ -1230,7 +1118,7 @@ Maintainer: @termux
 Installed-Size: 64
 Breaks: libandroid-glob-dev
 Replaces: libandroid-glob-dev
-Filename: repo/pool/main/libandroid-glob_0.6-3_x86_64.deb
+Filename: ./libandroid-glob_0.6-3_x86_64.deb
 Size: 7244
 MD5sum: 553b980facea022e5a595891d88cb551
 SHA1: 6c0d76641ff01e162ce65139af0c30664e8c5934
@@ -1244,7 +1132,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 40
 Depends: libandroid-glob (= 0.6-3)
-Filename: repo/pool/main/libandroid-glob-static_0.6-3_x86_64.deb
+Filename: ./libandroid-glob-static_0.6-3_x86_64.deb
 Size: 4644
 MD5sum: 46cb69621697e6feefe73cbe100ac924
 SHA1: b8e99872a9ec2464e3ed20a3af0abf8b5c81390a
@@ -1257,7 +1145,7 @@ Version: 0.1-4
 Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 52
-Filename: repo/pool/main/libandroid-posix-semaphore_0.1-4_x86_64.deb
+Filename: ./libandroid-posix-semaphore_0.1-4_x86_64.deb
 Size: 3996
 MD5sum: 90966a284e0e0897860a6eeb8dacda06
 SHA1: b71831c93049e268af607c0893f2099799f4c731
@@ -1271,7 +1159,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 36
 Depends: libandroid-posix-semaphore (= 0.1-4)
-Filename: repo/pool/main/libandroid-posix-semaphore-static_0.1-4_x86_64.deb
+Filename: ./libandroid-posix-semaphore-static_0.1-4_x86_64.deb
 Size: 2608
 MD5sum: 4decc0fd5a86bac43123b35772df579d
 SHA1: 750464e9810320cbf3fb52f6471bd5468decb51b
@@ -1285,7 +1173,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 296
 Depends: pcre2
-Filename: repo/pool/main/libandroid-selinux_14.0.0.11-1_x86_64.deb
+Filename: ./libandroid-selinux_14.0.0.11-1_x86_64.deb
 Size: 63352
 MD5sum: 3330b83570c9fd095cf6018b82f5bc47
 SHA1: 8d8e3dac584ce71031d3e510f83b5c69bef9ccdc
@@ -1300,7 +1188,7 @@ Maintainer: @termux
 Installed-Size: 72
 Breaks: libandroid-shmem-dev
 Replaces: libandroid-shmem-dev
-Filename: repo/pool/main/libandroid-shmem_0.5-1_x86_64.deb
+Filename: ./libandroid-shmem_0.5-1_x86_64.deb
 Size: 7040
 MD5sum: 05042a42a8833c58e7e3731b0b02d70d
 SHA1: 55211d42715eb6fdd506f4bd12c17259749e1ab3
@@ -1314,7 +1202,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 48
 Depends: libandroid-shmem (= 0.5-1)
-Filename: repo/pool/main/libandroid-shmem-static_0.5-1_x86_64.deb
+Filename: ./libandroid-shmem-static_0.5-1_x86_64.deb
 Size: 5548
 MD5sum: d5e9610fb5e35b73c3d59384948c1d18
 SHA1: a18d21595145177148cf859bbb0b1a895f90daab
@@ -1329,7 +1217,7 @@ Maintainer: @termux
 Installed-Size: 152
 Conflicts: libandroid
 Replaces: libandroid
-Filename: repo/pool/main/libandroid-stub_28c_x86_64.deb
+Filename: ./libandroid-stub_28c_x86_64.deb
 Size: 20236
 MD5sum: 5d05f603a0f101d3579849ed8caf591d
 SHA1: 3ccadfd87744d579047bc0cce68c53c0fafe80df
@@ -1343,7 +1231,7 @@ Architecture: x86_64
 Essential: yes
 Maintainer: @termux
 Installed-Size: 76
-Filename: repo/pool/main/libandroid-support_29-1_x86_64.deb
+Filename: ./libandroid-support_29-1_x86_64.deb
 Size: 10964
 MD5sum: 14927db5306ec9f06ffcdbe57fb114f1
 SHA1: 1623e5597d64861642faa8a6f1f4fe6c1bc501b0
@@ -1357,7 +1245,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 72
 Depends: libandroid-support (= 29-1)
-Filename: repo/pool/main/libandroid-support-static_29-1_x86_64.deb
+Filename: ./libandroid-support-static_29-1_x86_64.deb
 Size: 8568
 MD5sum: 7326a151e8c864bdc123d20489a36931
 SHA1: 133aa113c2e524bebad0f52a2e54db8d6187a80e
@@ -1370,7 +1258,7 @@ Version: 0.4
 Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 52
-Filename: repo/pool/main/libandroid-utimes_0.4_x86_64.deb
+Filename: ./libandroid-utimes_0.4_x86_64.deb
 Size: 3084
 MD5sum: 8e27b38884e8e81be1fe3bec3b036fef
 SHA1: 8f4cfb2099ba6ee8b86d6f2445bf243500ee3168
@@ -1384,7 +1272,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 32
 Depends: libandroid-utimes (= 0.4)
-Filename: repo/pool/main/libandroid-utimes-static_0.4_x86_64.deb
+Filename: ./libandroid-utimes-static_0.4_x86_64.deb
 Size: 1560
 MD5sum: 0c43525135e66d43a3859f530222cdfe
 SHA1: 9f4c328fd8b4983ec893161833003ce6c0f309ec
@@ -1397,7 +1285,7 @@ Version: 3.13.1
 Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 9548
-Filename: repo/pool/main/libaom_3.13.1_x86_64.deb
+Filename: ./libaom_3.13.1_x86_64.deb
 Size: 2194988
 MD5sum: 7ccccd2b23e42830ccece5fb235867e7
 SHA1: 6ea7ddf5b6e22d5be145755f94f61469b90c528c
@@ -1411,7 +1299,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 11868
 Depends: libaom (= 3.13.1)
-Filename: repo/pool/main/libaom-static_3.13.1_x86_64.deb
+Filename: ./libaom-static_3.13.1_x86_64.deb
 Size: 2359508
 MD5sum: 0463b063a689187957b6a3fa2a08af4c
 SHA1: 22cf86a0b7baee0d9ee7cd69a01242107bbca9ac
@@ -1427,7 +1315,7 @@ Installed-Size: 276
 Depends: fontconfig, fribidi, glib, harfbuzz
 Breaks: libass-dev
 Replaces: libass-dev
-Filename: repo/pool/main/libass_0.17.4-1_x86_64.deb
+Filename: ./libass_0.17.4-1_x86_64.deb
 Size: 88636
 MD5sum: 6f88cd7109f336ac73c5f6e56151d091
 SHA1: bf0f1ecf8f959253bfdacf9b3e4d63d248b051a0
@@ -1441,7 +1329,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 324
 Depends: libass (= 0.17.4-1)
-Filename: repo/pool/main/libass-static_0.17.4-1_x86_64.deb
+Filename: ./libass-static_0.17.4-1_x86_64.deb
 Size: 87384
 MD5sum: 25f9060dcd1a7f05060081ffb6dabd33
 SHA1: 1849da664a126fa9f6e2a45fceaf65740ab83239
@@ -1457,7 +1345,7 @@ Installed-Size: 328
 Depends: libgpg-error
 Breaks: gnupg (<< 2.4.5-3), gpgv (<< 2.4.5-3), gpgme (<< 1.23.2-3), pinentry (<< 1.3.1-1), pinentry-gtk (<< 1.3.1), profanity (<< 0.14.0-3)
 Replaces: libassuan-dev
-Filename: repo/pool/main/libassuan_3.0.2-1_x86_64.deb
+Filename: ./libassuan_3.0.2-1_x86_64.deb
 Size: 75100
 MD5sum: 8bd6d90fe00178d702da9e75fdaf7dee
 SHA1: 49829d427dbac1db36c433e4b92b5214b7161c24
@@ -1471,7 +1359,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 172
 Depends: libassuan (= 3.0.2-1)
-Filename: repo/pool/main/libassuan-static_3.0.2-1_x86_64.deb
+Filename: ./libassuan-static_3.0.2-1_x86_64.deb
 Size: 32908
 MD5sum: dc14b59d502d2028dfb13c2e7ec7f9c1
 SHA1: 6f432494afeee00b172e9e0266d3406af6cf948d
@@ -1486,7 +1374,7 @@ Maintainer: @termux
 Installed-Size: 408
 Breaks: util-linux (<< 2.38.1-1)
 Replaces: util-linux (<< 2.38.1-1)
-Filename: repo/pool/main/libblkid_2.41.2_x86_64.deb
+Filename: ./libblkid_2.41.2_x86_64.deb
 Size: 136240
 MD5sum: e623687082d882d334326b39dbde00c8
 SHA1: 66204892dad7420f03f769e5abf33b4b9a2bb530
@@ -1500,7 +1388,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 400
 Depends: fontconfig, freetype, libudfread, libxml2
-Filename: repo/pool/main/libbluray_1.4.0_x86_64.deb
+Filename: ./libbluray_1.4.0_x86_64.deb
 Size: 120100
 MD5sum: 7514d56825034e427c117d970396aa28
 SHA1: 893aecac0addc67f01d49d76ff015c4a9adf3249
@@ -1514,7 +1402,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 2072
 Depends: libbluray (= 1.4.0)
-Filename: repo/pool/main/libbluray-static_1.4.0_x86_64.deb
+Filename: ./libbluray-static_1.4.0_x86_64.deb
 Size: 419348
 MD5sum: b784bef7a428042098909563e61cb8bc
 SHA1: 0d887df1e12fe64cd443376d200122203071b18f
@@ -1528,7 +1416,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 60
 Depends: libbluray (= 1.4.0)
-Filename: repo/pool/main/libbluray-utils_1.4.0_x86_64.deb
+Filename: ./libbluray-utils_1.4.0_x86_64.deb
 Size: 7396
 MD5sum: 3532e28b6b751580452221c675cf79a6
 SHA1: 050c1bcf8801186d84d4a6d0a0cd1f2cf5531531
@@ -1544,7 +1432,7 @@ Maintainer: @termux
 Installed-Size: 112
 Breaks: libbz2-dev
 Replaces: libbz2-dev
-Filename: repo/pool/main/libbz2_1.0.8-8_x86_64.deb
+Filename: ./libbz2_1.0.8-8_x86_64.deb
 Size: 27568
 MD5sum: 6ae07fcb8712aa0ead4eab857d1ae90f
 SHA1: c556a70777e28f4be484e3d3b972d15be8ea8a20
@@ -1558,7 +1446,7 @@ Architecture: x86_64
 Essential: yes
 Maintainer: @termux
 Installed-Size: 1244
-Filename: repo/pool/main/libc++_28c-1_x86_64.deb
+Filename: ./libc++_28c-1_x86_64.deb
 Size: 317720
 MD5sum: 5351ebaef7fc08a40d263903e9d92da3
 SHA1: 5270816c11a088283351faa5141c46b447cc8a81
@@ -1574,7 +1462,7 @@ Installed-Size: 1660
 Depends: fontconfig, freetype, glib, libandroid-shmem, libandroid-execinfo, liblzo, libpixman, libpng, libx11, libxcb, libxext, libxrender, zlib
 Breaks: libcairo-dev, libcairo-gobject
 Replaces: libcairo-dev, libcairo-gobject
-Filename: repo/pool/main/libcairo_1.18.4-2_x86_64.deb
+Filename: ./libcairo_1.18.4-2_x86_64.deb
 Size: 531448
 MD5sum: 9198d40e05e9716bd07a578cbb510aea
 SHA1: a3ea3a2d30c9925cf3dac3bf7bd6c0c9a3933f93
@@ -1587,7 +1475,7 @@ Version: 2:0.8.5-1
 Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 264
-Filename: repo/pool/main/libcap-ng_2:0.8.5-1_x86_64.deb
+Filename: ./libcap-ng_2:0.8.5-1_x86_64.deb
 Size: 36288
 MD5sum: 44b2940de507a3f7f1cee11bd43af105
 SHA1: 4a9683cb406ea444c6eadc8bd4e2cb119e8f96b3
@@ -1601,7 +1489,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 64
 Depends: libcap-ng (= 2:0.8.5-1)
-Filename: repo/pool/main/libcap-ng-static_2:0.8.5-1_x86_64.deb
+Filename: ./libcap-ng-static_2:0.8.5-1_x86_64.deb
 Size: 8496
 MD5sum: 5592f712d4f14acabaaaf063710a81e8
 SHA1: c52622337212379fb49b75dc9cc2d82a36c4fe59
@@ -1617,7 +1505,7 @@ Installed-Size: 72
 Depends: openssl
 Breaks: libcrypt-dev
 Replaces: libcrypt-dev
-Filename: repo/pool/main/libcrypt_0.2-6_x86_64.deb
+Filename: ./libcrypt_0.2-6_x86_64.deb
 Size: 8792
 MD5sum: 04aea14515c814ee1b08096f2dd8e5cd
 SHA1: 3f2ea09d9906cbafb089e8e3da2a0c58a637bc00
@@ -1635,7 +1523,7 @@ Depends: libnghttp2, libnghttp3, libssh2, openssl (>= 1:3.2.1-1), zlib
 Conflicts: apt (<< 1.4.8-8)
 Breaks: libcurl-dev
 Replaces: libcurl-dev
-Filename: repo/pool/main/libcurl_8.17.0_x86_64.deb
+Filename: ./libcurl_8.17.0_x86_64.deb
 Size: 1028012
 MD5sum: 37792c0769340bdaa0d4a6cfa486f11f
 SHA1: 6086f9d60b1b10ebfd549049373de8d72a5f74eb
@@ -1649,7 +1537,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 1944
 Depends: libcurl (= 8.17.0)
-Filename: repo/pool/main/libcurl-static_8.17.0_x86_64.deb
+Filename: ./libcurl-static_8.17.0_x86_64.deb
 Size: 428484
 MD5sum: fec756dbec6b9cef3e19b8e180219573
 SHA1: ef4666c535a497e674f845a34815faa0d96767d4
@@ -1662,7 +1550,7 @@ Version: 1.5.2
 Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 1784
-Filename: repo/pool/main/libdav1d_1.5.2_x86_64.deb
+Filename: ./libdav1d_1.5.2_x86_64.deb
 Size: 552612
 MD5sum: cd6e92efe208725b902bdff4383fcf11
 SHA1: cec0835b76fbf9e13f4224282c0475f594488524
@@ -1678,7 +1566,7 @@ Installed-Size: 2400
 Depends: libc++
 Breaks: libdb-dev
 Replaces: libdb-dev
-Filename: repo/pool/main/libdb_18.1.40-5_x86_64.deb
+Filename: ./libdb_18.1.40-5_x86_64.deb
 Size: 546140
 MD5sum: a93bb57cc398fa7187204b0e139bef9b
 SHA1: 0ce19305b88a743692d4e5b8c0d0f8778297d92c
@@ -1692,7 +1580,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 8468
 Depends: libdb (= 18.1.40-5)
-Filename: repo/pool/main/libdb-static_18.1.40-5_x86_64.deb
+Filename: ./libdb-static_18.1.40-5_x86_64.deb
 Size: 490180
 MD5sum: ea4a08cb1510443d8126f19102b0ac74
 SHA1: f318a60656f67690e2cb72579a8a045211cf0a9e
@@ -1707,7 +1595,7 @@ Maintainer: @termux
 Installed-Size: 1156
 Breaks: libevent-dev
 Replaces: libevent-dev
-Filename: repo/pool/main/libevent_2.1.12-3_x86_64.deb
+Filename: ./libevent_2.1.12-3_x86_64.deb
 Size: 216328
 MD5sum: a60c19ca562da90e40d387bebff25eeb
 SHA1: 28804d31be9285925fc31cb3b41f3a45e4409f5f
@@ -1722,7 +1610,7 @@ Maintainer: @termux
 Installed-Size: 388
 Breaks: libexpat-dev
 Replaces: libexpat-dev
-Filename: repo/pool/main/libexpat_2.7.3_x86_64.deb
+Filename: ./libexpat_2.7.3_x86_64.deb
 Size: 96480
 MD5sum: b90a40a4ff270cb78428b4e43a00e254
 SHA1: 6657db0ac3ba3d3a5b7af1041bd70a5f30bc322b
@@ -1736,7 +1624,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 272
 Depends: libexpat (= 2.7.3)
-Filename: repo/pool/main/libexpat-static_2.7.3_x86_64.deb
+Filename: ./libexpat-static_2.7.3_x86_64.deb
 Size: 63608
 MD5sum: a27e26dab6077d875fb45bc8101c3672
 SHA1: e1234941f723b85afb2552238617b657151a9f9a
@@ -1750,7 +1638,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 508
 Depends: libblkid, libuuid
-Filename: repo/pool/main/libfdisk_2.41.2_x86_64.deb
+Filename: ./libfdisk_2.41.2_x86_64.deb
 Size: 169900
 MD5sum: 68aa1246a9a2c75d011fd516ec74858f
 SHA1: 87900d9723296b8bf8f8bf7cb0fddd1fecea1b51
@@ -1765,7 +1653,7 @@ Maintainer: @termux
 Installed-Size: 196
 Breaks: libffi-dev
 Replaces: libffi-dev
-Filename: repo/pool/main/libffi_3.4.7-1_x86_64.deb
+Filename: ./libffi_3.4.7-1_x86_64.deb
 Size: 32832
 MD5sum: 313350ab6c148e6fa163ce6b5ca3bb0d
 SHA1: 909bb6f74d5ac7ae4e6ad671efe89ae35ead3f44
@@ -1779,7 +1667,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 104
 Depends: libffi (= 3.4.7-1)
-Filename: repo/pool/main/libffi-static_3.4.7-1_x86_64.deb
+Filename: ./libffi-static_3.4.7-1_x86_64.deb
 Size: 17700
 MD5sum: 2f321e7655bc763746c9bf98fc8ae59e
 SHA1: f3404b2ad63153c9aadb01b99c759a86a92b7b74
@@ -1795,7 +1683,7 @@ Installed-Size: 1056
 Depends: libc++, libogg
 Breaks: libflac-dev
 Replaces: libflac-dev
-Filename: repo/pool/main/libflac_1.5.0-1_x86_64.deb
+Filename: ./libflac_1.5.0-1_x86_64.deb
 Size: 213128
 MD5sum: f41a8984624507e66714ce74e80046ad
 SHA1: d479309f13e44dfe2f3d94187bba04e31432c82e
@@ -1809,7 +1697,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 564
 Depends: libflac (= 1.5.0-1)
-Filename: repo/pool/main/libflac-static_1.5.0-1_x86_64.deb
+Filename: ./libflac-static_1.5.0-1_x86_64.deb
 Size: 115820
 MD5sum: 414d10598239e0e42405c5d3c9b0b825
 SHA1: fcbf632ab2d5c1454845ab99d40933f2417e028b
@@ -1825,7 +1713,7 @@ Installed-Size: 1528
 Depends: libgpg-error
 Breaks: libgcrypt-dev
 Replaces: libgcrypt-dev
-Filename: repo/pool/main/libgcrypt_1.11.2-1_x86_64.deb
+Filename: ./libgcrypt_1.11.2-1_x86_64.deb
 Size: 477300
 MD5sum: a12d144d296b9f28f1c58594ae3d8a77
 SHA1: 80ca8cbcf3859270b0e392ef4ecaaef017c259f3
@@ -1839,7 +1727,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 1596
 Depends: libgcrypt (= 1.11.2-1)
-Filename: repo/pool/main/libgcrypt-static_1.11.2-1_x86_64.deb
+Filename: ./libgcrypt-static_1.11.2-1_x86_64.deb
 Size: 424840
 MD5sum: 6b780d521e7f84ecfc2177f8810fb476
 SHA1: e1a29bc6ee86ebebb376053818a6754826acc2bf
@@ -1857,28 +1745,13 @@ Recommends: mesa
 Conflicts: libmesa, mesa (<< 22.3.3-2), ndk-sysroot (<= 25b)
 Breaks: mesa (<< 22.3.3-2)
 Replaces: libmesa, mesa (<< 22.3.3-2)
-Filename: repo/pool/main/libglvnd_1.7.0-1_x86_64.deb
+Filename: ./libglvnd_1.7.0-1_x86_64.deb
 Size: 274896
 MD5sum: cfe87697b451fcb83a839327b0bc14ac
 SHA1: bcca0b2425ac68ac37bf0403f0fc3c54aaf06e65
 SHA256: bdc65d55f6df07d5d1ee6fd778433f5d750747d6fb13fc0d2257c1d3d8126249
 Homepage: https://gitlab.freedesktop.org/glvnd/libglvnd
 Description: The GL Vendor-Neutral Dispatch library
-
-Package: libglvnd-dev
-Version: 1.7.0-1
-Architecture: all
-Maintainer: @termux
-Installed-Size: 2316
-Breaks: mesa (<< 22.3.3-2), mesa-dev (<< 22.3.3-2), ndk-sysroot (<< 25b-3)
-Replaces: mesa (<< 22.3.3-2), mesa-dev (<< 22.3.3-2), ndk-sysroot (<< 25b-3)
-Filename: repo/pool/main/libglvnd-dev_1.7.0-1_all.deb
-Size: 150276
-MD5sum: 93e2268708ce04433ac1a43861677692
-SHA1: 9341c3b4ef1c555e6de3ce507921da877a6e1c43
-SHA256: 184a5ebe14ee51b802cc7cc9383b4ead38a9fa82a12379f965f484b7a5da09e9
-Homepage: https://gitlab.freedesktop.org/glvnd/libglvnd
-Description: GLVND's OpenGL headers
 
 Package: libgmp
 Version: 6.3.0-2
@@ -1888,7 +1761,7 @@ Installed-Size: 1252
 Depends: libc++
 Breaks: libgmp-dev
 Replaces: libgmp-dev
-Filename: repo/pool/main/libgmp_6.3.0-2_x86_64.deb
+Filename: ./libgmp_6.3.0-2_x86_64.deb
 Size: 348268
 MD5sum: 047ed518e30977d3c199cd138c4b5233
 SHA1: 4c32187bfc661a396ae1c544232ca58a81645ca8
@@ -1902,7 +1775,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 1228
 Depends: libgmp (= 6.3.0-2)
-Filename: repo/pool/main/libgmp-static_6.3.0-2_x86_64.deb
+Filename: ./libgmp-static_6.3.0-2_x86_64.deb
 Size: 237800
 MD5sum: 21c687940b5524116175feffd20f04de
 SHA1: 332ccf1d25f5726ea8f2b82d70da20eca8489c74
@@ -1918,7 +1791,7 @@ Installed-Size: 2428
 Depends: libc++, libgmp, libnettle, ca-certificates, libidn2, libunbound, libunistring, zlib
 Breaks: libgnutls-dev
 Replaces: libgnutls-dev
-Filename: repo/pool/main/libgnutls_3.8.10_x86_64.deb
+Filename: ./libgnutls_3.8.10_x86_64.deb
 Size: 791288
 MD5sum: 0cff25576daa85a3da539e29ca9e5782
 SHA1: 287997e8726fe9c6599d44956619235318c248a5
@@ -1932,7 +1805,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 3872
 Depends: libgnutls (= 3.8.10)
-Filename: repo/pool/main/libgnutls-static_3.8.10_x86_64.deb
+Filename: ./libgnutls-static_3.8.10_x86_64.deb
 Size: 795200
 MD5sum: e1e719bd99a2f88994d71d3ae017d55a
 SHA1: fda24592d70aebce05133dd798a928f3a601717f
@@ -1947,7 +1820,7 @@ Maintainer: @termux
 Installed-Size: 596
 Breaks: libgpg-error-dev
 Replaces: libgpg-error-dev
-Filename: repo/pool/main/libgpg-error_1.55-1_x86_64.deb
+Filename: ./libgpg-error_1.55-1_x86_64.deb
 Size: 123312
 MD5sum: 71feab1d4c66dc0d952b35581d65d8df
 SHA1: 3022cc8444d089348533986966445efdd151c44c
@@ -1961,7 +1834,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 292
 Depends: libgpg-error (= 1.55-1)
-Filename: repo/pool/main/libgpg-error-static_1.55-1_x86_64.deb
+Filename: ./libgpg-error-static_1.55-1_x86_64.deb
 Size: 65992
 MD5sum: 585342cdd305a40c1780c439a7f739de
 SHA1: 2cddd70ae0a40adb28268f8151bf7cca04e0ee2e
@@ -1977,7 +1850,7 @@ Installed-Size: 300
 Depends: libc++
 Breaks: libgraphite-dev
 Replaces: libgraphite-dev
-Filename: repo/pool/main/libgraphite_1.3.14-3_x86_64.deb
+Filename: ./libgraphite_1.3.14-3_x86_64.deb
 Size: 87328
 MD5sum: 481b85556b6b0ebbc1eccc7a3fd0dadc
 SHA1: cc568bafbbc6f3ed08637d518a9545b5abb36a2b
@@ -1992,7 +1865,7 @@ Maintainer: @termux
 Installed-Size: 1216
 Breaks: libandroid-support (<= 24), libiconv-dev, libandroid-support-dev
 Replaces: libandroid-support (<= 24), libiconv-dev, libandroid-support-dev
-Filename: repo/pool/main/libiconv_1.18-1_x86_64.deb
+Filename: ./libiconv_1.18-1_x86_64.deb
 Size: 562892
 MD5sum: 6aabee641754c4089b2b7c6aacaf048d
 SHA1: 6e6c4f84557a451334d5e07a4b5e3bb6cd599eea
@@ -2006,7 +1879,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 1200
 Depends: libiconv (= 1.18-1)
-Filename: repo/pool/main/libiconv-static_1.18-1_x86_64.deb
+Filename: ./libiconv-static_1.18-1_x86_64.deb
 Size: 553040
 MD5sum: db5aa1c632b2c3d2239a2a430c2d4efe
 SHA1: cc35e76bc06b17061e628dafa718b37f839e2310
@@ -2022,7 +1895,7 @@ Installed-Size: 42120
 Depends: libc++
 Breaks: libicu-dev
 Replaces: libicu-dev
-Filename: repo/pool/main/libicu_77.1-2_x86_64.deb
+Filename: ./libicu_77.1-2_x86_64.deb
 Size: 10037480
 MD5sum: ad182c55d3305cc2ad0e8cf900e09aef
 SHA1: 1ed0843881722d52a8891ffadbab6125d8b4c530
@@ -2036,7 +1909,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 44372
 Depends: libicu (= 77.1-2)
-Filename: repo/pool/main/libicu-static_77.1-2_x86_64.deb
+Filename: ./libicu-static_77.1-2_x86_64.deb
 Size: 9748304
 MD5sum: 2d00c00511b112e2bf81fb47f265e541
 SHA1: e038db990ec0985b0ee256a203b0429ae60584c2
@@ -2052,7 +1925,7 @@ Installed-Size: 424
 Depends: libandroid-support, libiconv, libunistring
 Breaks: libidn2-dev
 Replaces: libidn2-dev
-Filename: repo/pool/main/libidn2_2.3.8-1_x86_64.deb
+Filename: ./libidn2_2.3.8-1_x86_64.deb
 Size: 106240
 MD5sum: 432762c4b30436c342c39239f4a3dbbf
 SHA1: 69ac03fa912fb02226642aa207440d1f333bbfa2
@@ -2066,7 +1939,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 292
 Depends: libidn2 (= 2.3.8-1)
-Filename: repo/pool/main/libidn2-static_2.3.8-1_x86_64.deb
+Filename: ./libidn2-static_2.3.8-1_x86_64.deb
 Size: 73208
 MD5sum: fe18b9b8e5ffb532bb084bf0e6393f05
 SHA1: 59123a0f423cfb29b958889d11c6bd8985baac18
@@ -2081,7 +1954,7 @@ Maintainer: @termux
 Installed-Size: 2564
 Breaks: libjpeg-turbo-dev
 Replaces: libjpeg-turbo-dev
-Filename: repo/pool/main/libjpeg-turbo_3.1.2_x86_64.deb
+Filename: ./libjpeg-turbo_3.1.2_x86_64.deb
 Size: 415200
 MD5sum: 60dd44a8d42847ed159ce4549285fed5
 SHA1: 3b3c4b64bd00f94086db2ee485032aa324a4de64
@@ -2095,7 +1968,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 364
 Depends: libjpeg-turbo (= 3.1.2)
-Filename: repo/pool/main/libjpeg-turbo-progs_3.1.2_x86_64.deb
+Filename: ./libjpeg-turbo-progs_3.1.2_x86_64.deb
 Size: 108212
 MD5sum: 7fe2df067099e1748f61574cf5818c9d
 SHA1: 64e1f97ee5d44200bc79b3f47bd8a81ef5074c6a
@@ -2109,7 +1982,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 2700
 Depends: libjpeg-turbo (= 3.1.2)
-Filename: repo/pool/main/libjpeg-turbo-static_3.1.2_x86_64.deb
+Filename: ./libjpeg-turbo-static_3.1.2_x86_64.deb
 Size: 292472
 MD5sum: 56b4a2c576249e670a599461abf0d613
 SHA1: 522b881a978731b83afff9f523288ffef4cff0df
@@ -2125,7 +1998,7 @@ Installed-Size: 412
 Depends: libgpg-error
 Breaks: libksba-dev
 Replaces: libksba-dev
-Filename: repo/pool/main/libksba_1.6.7-2_x86_64.deb
+Filename: ./libksba_1.6.7-2_x86_64.deb
 Size: 112324
 MD5sum: 76eeb054849617f39355d091e0209b76
 SHA1: bb02550667fed8e729926cb2a7a8fd89bf2a514c
@@ -2139,7 +2012,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 420
 Depends: libksba (= 1.6.7-2)
-Filename: repo/pool/main/libksba-static_1.6.7-2_x86_64.deb
+Filename: ./libksba-static_1.6.7-2_x86_64.deb
 Size: 94868
 MD5sum: 70158b8a347499183dc29c3d299f20b7
 SHA1: f39edc3214e792cdf4f9b98c12960308b9938054
@@ -2154,7 +2027,7 @@ Maintainer: @termux
 Installed-Size: 96
 Breaks: libtool (<< 2.4.7-2)
 Replaces: libtool (<< 2.4.7-2)
-Filename: repo/pool/main/libltdl_2.5.4-2_x86_64.deb
+Filename: ./libltdl_2.5.4-2_x86_64.deb
 Size: 18752
 MD5sum: e9083583abb8c9ebfcc2b0814581ce4c
 SHA1: e7b3cba561523529a24afa79ef691a8e185d573e
@@ -2169,7 +2042,7 @@ Maintainer: @termux
 Installed-Size: 360
 Breaks: liblz4-dev
 Replaces: liblz4-dev
-Filename: repo/pool/main/liblz4_1.10.0-1_x86_64.deb
+Filename: ./liblz4_1.10.0-1_x86_64.deb
 Size: 100540
 MD5sum: 8e99fddfe912f8ce304f6fecf6625689
 SHA1: 4f32cb9eff0901c92c319e0459866ae2974f7bd5
@@ -2185,7 +2058,7 @@ Maintainer: @termux
 Installed-Size: 868
 Breaks: liblzma-dev
 Replaces: liblzma-dev
-Filename: repo/pool/main/liblzma_5.8.1-1_x86_64.deb
+Filename: ./liblzma_5.8.1-1_x86_64.deb
 Size: 196208
 MD5sum: 30a6b680d93a091ceb2ed35b8dc2a9d5
 SHA1: 2930d56073fabcf43d2852fc8e26091ab31a9f2e
@@ -2199,7 +2072,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 352
 Depends: liblzma (= 5.8.1-1)
-Filename: repo/pool/main/liblzma-static_5.8.1-1_x86_64.deb
+Filename: ./liblzma-static_5.8.1-1_x86_64.deb
 Size: 92000
 MD5sum: 0f983d32c91a0132f60fc084c798dd4f
 SHA1: 16be351c69cf2019de93898b3ba9021535e807a2
@@ -2214,7 +2087,7 @@ Maintainer: @termux
 Installed-Size: 456
 Breaks: liblzo-dev
 Replaces: liblzo-dev
-Filename: repo/pool/main/liblzo_2.10-4_x86_64.deb
+Filename: ./liblzo_2.10-4_x86_64.deb
 Size: 76940
 MD5sum: aac50e25ca7d794d8f17223f04372ab8
 SHA1: 348238fe890ec0fc762d4c3dfc306c5e01ed60eb
@@ -2228,7 +2101,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 228
 Depends: liblzo (= 2.10-4)
-Filename: repo/pool/main/liblzo-static_2.10-4_x86_64.deb
+Filename: ./liblzo-static_2.10-4_x86_64.deb
 Size: 41556
 MD5sum: 9c5e63aa0bb7a79aaf68844b7f382377
 SHA1: 6ecfa624e657fbf99570ec76eaa5242d6848c5f8
@@ -2241,7 +2114,7 @@ Version: 1.1.0-1
 Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 192
-Filename: repo/pool/main/libmd_1.1.0-1_x86_64.deb
+Filename: ./libmd_1.1.0-1_x86_64.deb
 Size: 41148
 MD5sum: a76bca6cf7eb1d17477967c24a820cb4
 SHA1: bef7c73c8afafdb1976243476a432c2f5b8682a4
@@ -2255,7 +2128,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 104
 Depends: libmd (= 1.1.0-1)
-Filename: repo/pool/main/libmd-static_1.1.0-1_x86_64.deb
+Filename: ./libmd-static_1.1.0-1_x86_64.deb
 Size: 17788
 MD5sum: 5d6a02994239f599bc7f680a6d443d88
 SHA1: 13725ef6ad5285e71d3d0c91803665f106b30b55
@@ -2269,7 +2142,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 496
 Depends: libblkid, libsmartcols
-Filename: repo/pool/main/libmount_2.41.2_x86_64.deb
+Filename: ./libmount_2.41.2_x86_64.deb
 Size: 168132
 MD5sum: b1202943da1c188ea27886b486988cb8
 SHA1: 8b3a089a999b37bb38a99b5f0a636a53b937952c
@@ -2284,7 +2157,7 @@ Maintainer: @termux
 Installed-Size: 360
 Breaks: libmp3lame-dev
 Replaces: libmp3lame-dev
-Filename: repo/pool/main/libmp3lame_3.100-7_x86_64.deb
+Filename: ./libmp3lame_3.100-7_x86_64.deb
 Size: 120392
 MD5sum: fbd7f38102b38f62e0c98aa8e49153a4
 SHA1: 2fba47e851f6be8315df7a2ba04825b2d375e480
@@ -2298,7 +2171,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 460
 Depends: libmp3lame (= 3.100-7)
-Filename: repo/pool/main/libmp3lame-static_3.100-7_x86_64.deb
+Filename: ./libmp3lame-static_3.100-7_x86_64.deb
 Size: 127036
 MD5sum: 9fe1c366addc15adaeb023aa07fbc688
 SHA1: 33daf640ddc571c6e25fad378cab59993c85a3d5
@@ -2314,7 +2187,7 @@ Installed-Size: 1032
 Depends: libgmp
 Breaks: libmpfr-dev
 Replaces: libmpfr-dev
-Filename: repo/pool/main/libmpfr_4.2.1-1_x86_64.deb
+Filename: ./libmpfr_4.2.1-1_x86_64.deb
 Size: 299476
 MD5sum: 7bbd2852f2a6aac9d9f4a1ae0241c62f
 SHA1: 4494db7ec9d59257c6c967ed40a6184a6f4589d1
@@ -2328,7 +2201,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 1100
 Depends: libmpfr (= 4.2.1-1)
-Filename: repo/pool/main/libmpfr-static_4.2.1-1_x86_64.deb
+Filename: ./libmpfr-static_4.2.1-1_x86_64.deb
 Size: 220252
 MD5sum: 7c6e0e0be705857b195b103a1f58d942
 SHA1: 343359766b596ebf3dcbc073f503795e2ce72773
@@ -2343,7 +2216,7 @@ Maintainer: @termux
 Installed-Size: 648
 Breaks: mpg123 (<< 1.33.1-1)
 Replaces: mpg123 (<< 1.33.1-1)
-Filename: repo/pool/main/libmpg123_1.33.3_x86_64.deb
+Filename: ./libmpg123_1.33.3_x86_64.deb
 Size: 186780
 MD5sum: aac7805aebc4fa4a11e5456e075068bf
 SHA1: 8e9f37da21998c9f3f57ffbf895213f555b907ae
@@ -2357,7 +2230,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 648
 Depends: libmpg123 (= 1.33.3)
-Filename: repo/pool/main/libmpg123-static_1.33.3_x86_64.deb
+Filename: ./libmpg123-static_1.33.3_x86_64.deb
 Size: 160852
 MD5sum: ba4854d0b633d56177c06751ae2bfd08
 SHA1: 87094595294f8ee1fbf55a4c8fe0c3a9aa4f15df
@@ -2373,7 +2246,7 @@ Installed-Size: 1416
 Depends: libgmp
 Breaks: libnettle-dev
 Replaces: libnettle-dev
-Filename: repo/pool/main/libnettle_3.10.2-1_x86_64.deb
+Filename: ./libnettle_3.10.2-1_x86_64.deb
 Size: 401244
 MD5sum: fded225a42cf258690b9212d018f93a1
 SHA1: 887b8e1c8587bd2c1aee5228e528f5b6c7274262
@@ -2387,7 +2260,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 3552
 Depends: libnettle (= 3.10.2-1)
-Filename: repo/pool/main/libnettle-static_3.10.2-1_x86_64.deb
+Filename: ./libnettle-static_3.10.2-1_x86_64.deb
 Size: 636424
 MD5sum: 9c99d6393dc77eb5a559f4d3f834129a
 SHA1: 310bac4ad926e77e7949a2641536bbbe1e239085
@@ -2402,7 +2275,7 @@ Maintainer: @termux
 Installed-Size: 516
 Breaks: libnghttp2-dev
 Replaces: libnghttp2-dev
-Filename: repo/pool/main/libnghttp2_1.68.0_x86_64.deb
+Filename: ./libnghttp2_1.68.0_x86_64.deb
 Size: 98056
 MD5sum: d508af1b26b4e0704846f796fc2c9ec5
 SHA1: 798bcc4eb473aba4ce6041ab17b7a26f6d39501d
@@ -2416,7 +2289,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 332
 Depends: libnghttp2 (= 1.68.0)
-Filename: repo/pool/main/libnghttp2-static_1.68.0_x86_64.deb
+Filename: ./libnghttp2-static_1.68.0_x86_64.deb
 Size: 65832
 MD5sum: de68831b447f1fcf6d2828ed8b00f0cb
 SHA1: c57ea0fb5a0d647cd9b5dec94a75de694b074a8c
@@ -2430,7 +2303,7 @@ Architecture: x86_64
 Essential: yes
 Maintainer: @termux
 Installed-Size: 328
-Filename: repo/pool/main/libnghttp3_1.12.0_x86_64.deb
+Filename: ./libnghttp3_1.12.0_x86_64.deb
 Size: 70228
 MD5sum: 5849599bb2c69efd8a2f06dda51a3752
 SHA1: 1836eaed3aeac21a6155868456be1ed294c957bb
@@ -2444,7 +2317,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 344
 Depends: libnghttp3 (= 1.12.0)
-Filename: repo/pool/main/libnghttp3-static_1.12.0_x86_64.deb
+Filename: ./libnghttp3-static_1.12.0_x86_64.deb
 Size: 65608
 MD5sum: 4a7d435e3b173fce3ea13f9cb21c402a
 SHA1: 44ab8aaa4c71ecda742d0b94cf7c8c6c6a1a3b0d
@@ -2459,7 +2332,7 @@ Maintainer: @termux
 Installed-Size: 92
 Breaks: libnpth-dev
 Replaces: libnpth-dev
-Filename: repo/pool/main/libnpth_1.6-3_x86_64.deb
+Filename: ./libnpth_1.6-3_x86_64.deb
 Size: 11212
 MD5sum: d4934c8e81a31781cf54906e883604e7
 SHA1: 183952eadd6b4cef077c4f1f30f694bcb48aec00
@@ -2473,7 +2346,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 48
 Depends: libnpth (= 1.6-3)
-Filename: repo/pool/main/libnpth-static_1.6-3_x86_64.deb
+Filename: ./libnpth-static_1.6-3_x86_64.deb
 Size: 4388
 MD5sum: b2fdbc6221b9d5d9c119f3a4131633fb
 SHA1: 52478a27e9ace34dafeacf52b6696333f0871384
@@ -2488,7 +2361,7 @@ Maintainer: @termux
 Installed-Size: 684
 Breaks: libogg-dev
 Replaces: libogg-dev
-Filename: repo/pool/main/libogg_1.3.6-1_x86_64.deb
+Filename: ./libogg_1.3.6-1_x86_64.deb
 Size: 188732
 MD5sum: 618cc6ccf56dabb144263e1d2fb39089
 SHA1: 1d1e2976a3b48325e162804fd315ab4e1823f1f0
@@ -2502,7 +2375,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 60
 Depends: libogg (= 1.3.6-1)
-Filename: repo/pool/main/libogg-static_1.3.6-1_x86_64.deb
+Filename: ./libogg-static_1.3.6-1_x86_64.deb
 Size: 16516
 MD5sum: 3c70ef064a4e59fa20b073fb48e90d2f
 SHA1: a84426f1869c18cdee32487398f21f492e7c6c9d
@@ -2517,7 +2390,7 @@ Maintainer: @termux
 Installed-Size: 296
 Breaks: libopencore-amr-dev
 Replaces: libopencore-amr-dev
-Filename: repo/pool/main/libopencore-amr_0.1.6-1_x86_64.deb
+Filename: ./libopencore-amr_0.1.6-1_x86_64.deb
 Size: 116404
 MD5sum: 1d94e9afeed08b1444e6fa039f43ca77
 SHA1: 320a57e22e963d6f6969211027ed6e64489ecaf6
@@ -2531,7 +2404,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 524
 Depends: libopencore-amr (= 0.1.6-1)
-Filename: repo/pool/main/libopencore-amr-static_0.1.6-1_x86_64.deb
+Filename: ./libopencore-amr-static_0.1.6-1_x86_64.deb
 Size: 135592
 MD5sum: b01456a444b954ba1f5dcc1bc917b4d7
 SHA1: 1416e7717ed11129caff2ca3ead07e54afbc89a2
@@ -2545,7 +2418,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 1972
 Depends: libc++, libvorbis, libmpg123, zlib
-Filename: repo/pool/main/libopenmpt_0.8.3_x86_64.deb
+Filename: ./libopenmpt_0.8.3_x86_64.deb
 Size: 579472
 MD5sum: 619fa22e08ad8413ebfbc510371c89bd
 SHA1: 3142fdfd054e37bb0e26c80e973f2689b96589f6
@@ -2559,7 +2432,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 15752
 Depends: libopenmpt (= 0.8.3)
-Filename: repo/pool/main/libopenmpt-static_0.8.3_x86_64.deb
+Filename: ./libopenmpt-static_0.8.3_x86_64.deb
 Size: 1385064
 MD5sum: aecf7eeaffcdd1169c1d1ca3a08b437e
 SHA1: f96cb5b9c2916263eb5702cf2b1d55762b787d09
@@ -2574,7 +2447,7 @@ Maintainer: @termux
 Installed-Size: 560
 Breaks: libopus-dev
 Replaces: libopus-dev
-Filename: repo/pool/main/libopus_1.5.2-1_x86_64.deb
+Filename: ./libopus_1.5.2-1_x86_64.deb
 Size: 195536
 MD5sum: e1a3fe9d8b23893c46da24377bc6c17b
 SHA1: a17041235c6b9109e7492f5b8ff964a24b2915b1
@@ -2588,7 +2461,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 700
 Depends: libopus (= 1.5.2-1)
-Filename: repo/pool/main/libopus-static_1.5.2-1_x86_64.deb
+Filename: ./libopus-static_1.5.2-1_x86_64.deb
 Size: 204700
 MD5sum: 7777db767279007c4e79ba09eafc11ff
 SHA1: 9755e1c1a5b9ccd60642ad0842eeef27e06fd0ae
@@ -2603,7 +2476,7 @@ Maintainer: @termux
 Installed-Size: 724
 Breaks: libpixman-dev
 Replaces: libpixman-dev
-Filename: repo/pool/main/libpixman_0.46.4-1_x86_64.deb
+Filename: ./libpixman_0.46.4-1_x86_64.deb
 Size: 197832
 MD5sum: 947ed869b94228c5bde5d4cb7d13053a
 SHA1: 872814f1080487b6ccfb55a0cdbdbf7b5527cb9a
@@ -2617,7 +2490,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 1584
 Depends: littlecms, glslang, python, vulkan-icd
-Filename: repo/pool/main/libplacebo_7.351.0_x86_64.deb
+Filename: ./libplacebo_7.351.0_x86_64.deb
 Size: 444268
 MD5sum: 635c8b5e51b6c03de753ec7d14a7d7e0
 SHA1: f6bb4dd823fa63f02f17b4e0a72bb8baee5bee3b
@@ -2633,7 +2506,7 @@ Installed-Size: 516
 Depends: zlib
 Breaks: libpng-dev
 Replaces: libpng-dev
-Filename: repo/pool/main/libpng_1.6.50-1_x86_64.deb
+Filename: ./libpng_1.6.50-1_x86_64.deb
 Size: 198160
 MD5sum: eba313c5b9aebc01fc5721155756a1f6
 SHA1: 79ff39a9d2b436f8913a1451d7d9d426b224d174
@@ -2647,7 +2520,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 324
 Depends: libpng (= 1.6.50-1)
-Filename: repo/pool/main/libpng-static_1.6.50-1_x86_64.deb
+Filename: ./libpng-static_1.6.50-1_x86_64.deb
 Size: 86300
 MD5sum: ab9aaab2b7e594d4a4fe610401d3027e
 SHA1: 00ded6acdcac989776b9793308a98548e277eaef
@@ -2660,7 +2533,7 @@ Version: 0.8.1
 Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 3420
-Filename: repo/pool/main/librav1e_0.8.1_x86_64.deb
+Filename: ./librav1e_0.8.1_x86_64.deb
 Size: 979692
 MD5sum: 2b3f9b3f826270138acf9c74562eaba4
 SHA1: 42fcdbc470e8e65afbec3ceb68e2f63d6d346699
@@ -2674,7 +2547,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 78268
 Depends: librav1e (= 0.8.1)
-Filename: repo/pool/main/librav1e-static_0.8.1_x86_64.deb
+Filename: ./librav1e-static_0.8.1_x86_64.deb
 Size: 8389640
 MD5sum: 5697c67c1c0299ee43f9ede1e7c620e9
 SHA1: 18d63d3bb8707180c71f76ddee4cefa8c8ad86e6
@@ -2687,7 +2560,7 @@ Version: 0.2.2-4
 Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 1652
-Filename: repo/pool/main/libsamplerate_0.2.2-4_x86_64.deb
+Filename: ./libsamplerate_0.2.2-4_x86_64.deb
 Size: 974592
 MD5sum: 3978bb627df7530177311d366120958c
 SHA1: 362cb847cb6ef0e0125eb54eb093bbd412159dbc
@@ -2702,7 +2575,7 @@ Maintainer: @termux
 Installed-Size: 324
 Breaks: util-linux (<< 2.38.1-1)
 Replaces: util-linux (<< 2.38.1-1)
-Filename: repo/pool/main/libsmartcols_2.41.2_x86_64.deb
+Filename: ./libsmartcols_2.41.2_x86_64.deb
 Size: 106504
 MD5sum: faf8a69097f47b1dd3fc760486b6e656
 SHA1: ed1975c389a690b3a76e2d68e8bfeb6ad155c931
@@ -2718,7 +2591,7 @@ Installed-Size: 744
 Depends: libflac, libmp3lame, libogg, libopus, libvorbis
 Breaks: libsndfile-dev
 Replaces: libsndfile-dev
-Filename: repo/pool/main/libsndfile_1.2.2-2_x86_64.deb
+Filename: ./libsndfile_1.2.2-2_x86_64.deb
 Size: 222696
 MD5sum: 13c2cd87ecba5ccbd5ab88d365439c3a
 SHA1: 041a1c1ceb508817a9c40f83a9da561e5a6b8622
@@ -2732,7 +2605,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 872
 Depends: libsndfile (= 1.2.2-2)
-Filename: repo/pool/main/libsndfile-static_1.2.2-2_x86_64.deb
+Filename: ./libsndfile-static_1.2.2-2_x86_64.deb
 Size: 187320
 MD5sum: c6c34d932183968dbb9b6d99cb98cb60
 SHA1: 26438158aba26727917e3f9903dabeb85b2dff9a
@@ -2747,7 +2620,7 @@ Maintainer: @termux
 Installed-Size: 708
 Breaks: libsodium-dev
 Replaces: libsodium-dev
-Filename: repo/pool/main/libsodium_1.0.20-1_x86_64.deb
+Filename: ./libsodium_1.0.20-1_x86_64.deb
 Size: 150872
 MD5sum: 4238f2d45c900b31d287c55edc15478e
 SHA1: 63171307f1ba025b6f34632d022cc35feb590aa4
@@ -2761,7 +2634,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 628
 Depends: libsodium (= 1.0.20-1)
-Filename: repo/pool/main/libsodium-static_1.0.20-1_x86_64.deb
+Filename: ./libsodium-static_1.0.20-1_x86_64.deb
 Size: 148888
 MD5sum: dd4f943c9ff93abe540c81327e599c4d
 SHA1: 2fd93b7168c535563348622cf764c2a5ce628c2a
@@ -2776,7 +2649,7 @@ Maintainer: @termux
 Installed-Size: 1208
 Breaks: libsoxr-dev
 Replaces: libsoxr-dev
-Filename: repo/pool/main/libsoxr_0.1.3-8_x86_64.deb
+Filename: ./libsoxr_0.1.3-8_x86_64.deb
 Size: 372116
 MD5sum: ae517e44eddbb156837cfdc17a6f2aa9
 SHA1: 3b8d3a683f9c383dc4ce1fc43407ada693bd32c7
@@ -2792,7 +2665,7 @@ Installed-Size: 3072
 Depends: zlib
 Breaks: libsqlite-dev
 Replaces: libsqlite-dev
-Filename: repo/pool/main/libsqlite_3.51.0_x86_64.deb
+Filename: ./libsqlite_3.51.0_x86_64.deb
 Size: 755452
 MD5sum: e31b53ef6880171b16cad6f1cbefe5e8
 SHA1: aeef1fbef3c8abf9bfc285d9a7aa6b1b139c1ec9
@@ -2806,7 +2679,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 1604
 Depends: libsqlite (= 3.51.0)
-Filename: repo/pool/main/libsqlite-static_3.51.0_x86_64.deb
+Filename: ./libsqlite-static_3.51.0_x86_64.deb
 Size: 574040
 MD5sum: 44f98b0d9b4e9d0f4d46a78167a1602f
 SHA1: 2713559ce86009213b8dbfcc1bd6a099f02c115d
@@ -2821,7 +2694,7 @@ Maintainer: @termux
 Installed-Size: 1212
 Depends: tcl, libsqlite (= 3.51.0)
 Breaks: sqlcipher (<< 4.4.2-1), tcl (<< 8.6.10-4)
-Filename: repo/pool/main/libsqlite-tcl_3.51.0_x86_64.deb
+Filename: ./libsqlite-tcl_3.51.0_x86_64.deb
 Size: 553424
 MD5sum: 1a6dce13ef4b719702f0f9f612744b43
 SHA1: 7abd909363eb04d044f7e522a08a73de9559793b
@@ -2835,7 +2708,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 940
 Depends: libc++, openssl
-Filename: repo/pool/main/libsrt_1.5.4-1_x86_64.deb
+Filename: ./libsrt_1.5.4-1_x86_64.deb
 Size: 300420
 MD5sum: 93e134264b980c0466cb0a14f7b034ba
 SHA1: 294532b3eb6becc3e081d07c363353fe94369fdf
@@ -2851,7 +2724,7 @@ Installed-Size: 820
 Depends: openssl, zlib
 Breaks: libssh-dev
 Replaces: libssh-dev
-Filename: repo/pool/main/libssh_0.11.3_x86_64.deb
+Filename: ./libssh_0.11.3_x86_64.deb
 Size: 222004
 MD5sum: f4d9414c4000a7ab514fb2d416a667f7
 SHA1: a587822befd86c10693b19ff49a126f522420c72
@@ -2867,7 +2740,7 @@ Installed-Size: 1156
 Depends: openssl, zlib
 Breaks: libssh2-dev
 Replaces: libssh2-dev
-Filename: repo/pool/main/libssh2_1.11.1-1_x86_64.deb
+Filename: ./libssh2_1.11.1-1_x86_64.deb
 Size: 222848
 MD5sum: b6b7850525cdbd1da5af8d81b4a87a2a
 SHA1: a197237b963f70689c5d43d4fdfb94b3ac2aa959
@@ -2881,7 +2754,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 468
 Depends: libssh2 (= 1.11.1-1)
-Filename: repo/pool/main/libssh2-static_1.11.1-1_x86_64.deb
+Filename: ./libssh2-static_1.11.1-1_x86_64.deb
 Size: 109708
 MD5sum: 5d34202fad43c9b37e689a05fd1117bd
 SHA1: d8de7cb4dfcb367b58f761151d408b51fe280814
@@ -2895,7 +2768,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 752
 Depends: libogg, libvorbis
-Filename: repo/pool/main/libtheora_1.2.0-1_x86_64.deb
+Filename: ./libtheora_1.2.0-1_x86_64.deb
 Size: 145440
 MD5sum: ebd679d1d552e2a2d213d76d535d4103
 SHA1: ec0166e43c1571cd39bde35b84f2666aab774369
@@ -2909,7 +2782,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 648
 Depends: libtheora (= 1.2.0-1)
-Filename: repo/pool/main/libtheora-static_1.2.0-1_x86_64.deb
+Filename: ./libtheora-static_1.2.0-1_x86_64.deb
 Size: 94240
 MD5sum: 4f2316cba85609cf22b1ed819b4b1ad0
 SHA1: e7fb9d54d7e6508b0f19b17f95bc50e813cba94d
@@ -2925,7 +2798,7 @@ Installed-Size: 6540
 Depends: libc++, libjpeg-turbo, liblzma, zlib, zstd
 Breaks: libtiff-dev
 Replaces: libtiff-dev
-Filename: repo/pool/main/libtiff_4.7.1_x86_64.deb
+Filename: ./libtiff_4.7.1_x86_64.deb
 Size: 859380
 MD5sum: 2c635c78c22fa4310fc288b29e8f07b9
 SHA1: bc01d4182408ddcd29b24c17743514ac34146d9d
@@ -2939,7 +2812,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 880
 Depends: libtiff (= 4.7.1)
-Filename: repo/pool/main/libtiff-static_4.7.1_x86_64.deb
+Filename: ./libtiff-static_4.7.1_x86_64.deb
 Size: 176964
 MD5sum: 47529f0fec527633c09453ca56bac08a
 SHA1: 520e5c835349362c8a6d066a08e93e9fc86ade41
@@ -2953,7 +2826,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 820
 Depends: libtiff (= 4.7.1)
-Filename: repo/pool/main/libtiff-utils_4.7.1_x86_64.deb
+Filename: ./libtiff-utils_4.7.1_x86_64.deb
 Size: 265724
 MD5sum: 89a2be233bc1d379d0205250ff1d383f
 SHA1: 41a68e5c4dfd54c43285b2ac0b35628603bc7872
@@ -2966,7 +2839,7 @@ Version: 1.3.7-1
 Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 544
-Filename: repo/pool/main/libtirpc_1.3.7-1_x86_64.deb
+Filename: ./libtirpc_1.3.7-1_x86_64.deb
 Size: 127464
 MD5sum: 0d8b9ccc735b357f8f7b093618ef696b
 SHA1: a3b7567c09db8aa725c723819c7340d605872e9b
@@ -2980,7 +2853,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 356
 Depends: libtirpc (= 1.3.7-1)
-Filename: repo/pool/main/libtirpc-static_1.3.7-1_x86_64.deb
+Filename: ./libtirpc-static_1.3.7-1_x86_64.deb
 Size: 68376
 MD5sum: 74c610c40918c5fbd45f547be8170e27
 SHA1: 3a9f82ad248627e59f9aed2ddd9b8451e3579ec9
@@ -2996,7 +2869,7 @@ Installed-Size: 2784
 Depends: bash, grep, sed, libltdl
 Conflicts: libtool-dev, libtool-static
 Replaces: libtool-dev, libtool-static
-Filename: repo/pool/main/libtool_2.5.4-2_x86_64.deb
+Filename: ./libtool_2.5.4-2_x86_64.deb
 Size: 391800
 MD5sum: d5bf29957e0b5e83c5fa19699f8e1a6a
 SHA1: 2ae3eabf0b584c7566cf788f12ac750b6e2dd8bb
@@ -3009,7 +2882,7 @@ Version: 1.2.0
 Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 100
-Filename: repo/pool/main/libudfread_1.2.0_x86_64.deb
+Filename: ./libudfread_1.2.0_x86_64.deb
 Size: 14592
 MD5sum: baa22410152a009e004414be7e90c774
 SHA1: 23d0057dbab8e9be5edb3adc108096e22e000013
@@ -3023,7 +2896,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 176
 Depends: libudfread (= 1.2.0)
-Filename: repo/pool/main/libudfread-static_1.2.0_x86_64.deb
+Filename: ./libudfread-static_1.2.0_x86_64.deb
 Size: 35984
 MD5sum: d5d0ce87a597f2ed6767916a5c64c556
 SHA1: b435e48f657c173e3f8ccc4f198d4283b3ba3d7c
@@ -3039,7 +2912,7 @@ Installed-Size: 1248
 Depends: libevent, libnghttp2, openssl, resolv-conf
 Breaks: unbound (<< 1.17.1-1)
 Replaces: unbound (<< 1.17.1-1)
-Filename: repo/pool/main/libunbound_1.24.1-1_x86_64.deb
+Filename: ./libunbound_1.24.1-1_x86_64.deb
 Size: 402876
 MD5sum: c8d8402c201c0f00ad8beb66e96aa924
 SHA1: 465719cf1720f30791b641172114dc62b7faf817
@@ -3053,7 +2926,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 2112
 Depends: libunbound (= 1.24.1-1)
-Filename: repo/pool/main/libunbound-static_1.24.1-1_x86_64.deb
+Filename: ./libunbound-static_1.24.1-1_x86_64.deb
 Size: 462032
 MD5sum: 8df9e365a830289ad0febc7eb3274cd5
 SHA1: 174125e4596877a2bbdc7a4f745ec5183ae89983
@@ -3069,7 +2942,7 @@ Installed-Size: 3228
 Depends: libandroid-support, libiconv
 Breaks: libunistring-dev
 Replaces: libunistring-dev
-Filename: repo/pool/main/libunistring_1.3-1_x86_64.deb
+Filename: ./libunistring_1.3-1_x86_64.deb
 Size: 572068
 MD5sum: f9d329bc6effebe991a2fee930b9df48
 SHA1: 663f340df4f1afbd9fcd59786eb1cd0b4ddb23fb
@@ -3083,7 +2956,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 2956
 Depends: libunistring (= 1.3-1)
-Filename: repo/pool/main/libunistring-static_1.3-1_x86_64.deb
+Filename: ./libunistring-static_1.3-1_x86_64.deb
 Size: 489408
 MD5sum: ae1d599dd90bba1f26b7b2e885ab455b
 SHA1: c7b7354b71e2dfe6d0de61fce60048dd1bef6500
@@ -3098,7 +2971,7 @@ Maintainer: @termux
 Installed-Size: 248
 Breaks: libusb-dev
 Replaces: libusb-dev
-Filename: repo/pool/main/libusb_1.0.29-1_x86_64.deb
+Filename: ./libusb_1.0.29-1_x86_64.deb
 Size: 59600
 MD5sum: 7ecebedb8bb1facde34c308a17ed3c1b
 SHA1: dc41e694eaf6138f7161cfe380f5a95452df1b08
@@ -3112,7 +2985,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 228
 Depends: libusb (= 1.0.29-1)
-Filename: repo/pool/main/libusb-static_1.0.29-1_x86_64.deb
+Filename: ./libusb-static_1.0.29-1_x86_64.deb
 Size: 48512
 MD5sum: d437c359405be04fc46670fe4bafc2b1
 SHA1: 0ae5ee63920f41429912f532fbef8c46a0561131
@@ -3127,7 +3000,7 @@ Maintainer: @termux
 Installed-Size: 80
 Breaks: libuuid-dev
 Replaces: libuuid-dev
-Filename: repo/pool/main/libuuid_2.41.2_x86_64.deb
+Filename: ./libuuid_2.41.2_x86_64.deb
 Size: 14440
 MD5sum: 2a92dba87f39a71e68ac4c14cef58338
 SHA1: f60b3d0816d6a39ce8fe31245560601cf912e88f
@@ -3141,7 +3014,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 404
 Depends: libandroid-execinfo, libandroid-glob, libjpeg-turbo
-Filename: repo/pool/main/libv4l_1.24.1-2_x86_64.deb
+Filename: ./libv4l_1.24.1-2_x86_64.deb
 Size: 98260
 MD5sum: 31a44ca6aec5eee8f493c118c5d61897
 SHA1: 85c7e75dd62b50e63b0c2976dd86444752555ab7
@@ -3155,7 +3028,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 400
 Depends: libv4l (= 1.24.1-2)
-Filename: repo/pool/main/libv4l-static_1.24.1-2_x86_64.deb
+Filename: ./libv4l-static_1.24.1-2_x86_64.deb
 Size: 83924
 MD5sum: 33d77c89399be3c8ddffdcca4aac6c53
 SHA1: 52314190c66d0f39685977ec8fc20231430c7429
@@ -3168,7 +3041,7 @@ Version: 1.1.1-3
 Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 1020
-Filename: repo/pool/main/libvidstab_1.1.1-3_x86_64.deb
+Filename: ./libvidstab_1.1.1-3_x86_64.deb
 Size: 310252
 MD5sum: 1de557dbba74a79e920a809b3c3cdd11
 SHA1: 91c094b7a702d0b83a2c20fae6d4bf7adf737d59
@@ -3182,7 +3055,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 1616
 Depends: libc++
-Filename: repo/pool/main/libvmaf_3.0.0-2_x86_64.deb
+Filename: ./libvmaf_3.0.0-2_x86_64.deb
 Size: 177952
 MD5sum: cd1991a359a385f1102ff68634a875ab
 SHA1: 7fbb65300dbe3e5a36970b299aec9489c09ca554
@@ -3196,7 +3069,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 2380
 Depends: libvmaf (= 3.0.0-2)
-Filename: repo/pool/main/libvmaf-static_3.0.0-2_x86_64.deb
+Filename: ./libvmaf-static_3.0.0-2_x86_64.deb
 Size: 410600
 MD5sum: d24884b53f355cd5aeaaad99c87dd0d0
 SHA1: a4d1603f29bcfda01ecd6e37a1bfca847125116c
@@ -3209,7 +3082,7 @@ Version: 0.1.3-2
 Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 160
-Filename: repo/pool/main/libvo-amrwbenc_0.1.3-2_x86_64.deb
+Filename: ./libvo-amrwbenc_0.1.3-2_x86_64.deb
 Size: 53360
 MD5sum: 8b2c5b735d99cac01476cd7e6e7130bc
 SHA1: 1d9a6f520a5dfb5c898d2c3c68c10904aee9d6b7
@@ -3223,7 +3096,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 200
 Depends: libvo-amrwbenc (= 0.1.3-2)
-Filename: repo/pool/main/libvo-amrwbenc-static_0.1.3-2_x86_64.deb
+Filename: ./libvo-amrwbenc-static_0.1.3-2_x86_64.deb
 Size: 57596
 MD5sum: 54e3232359e0bef2d4843fbb724da42a
 SHA1: 77398bb71c6ac1ec340466e35e451b7be2f95342
@@ -3239,7 +3112,7 @@ Installed-Size: 1780
 Depends: libogg
 Breaks: libvorbis-dev
 Replaces: libvorbis-dev
-Filename: repo/pool/main/libvorbis_1.3.7-4_x86_64.deb
+Filename: ./libvorbis_1.3.7-4_x86_64.deb
 Size: 266056
 MD5sum: d5fc9982e7b29f13ff34857f68ed5ec2
 SHA1: 235c61cc9044c50d755221178f15fd27b8fa21a2
@@ -3253,7 +3126,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 1028
 Depends: libvorbis (= 1.3.7-4)
-Filename: repo/pool/main/libvorbis-static_1.3.7-4_x86_64.deb
+Filename: ./libvorbis-static_1.3.7-4_x86_64.deb
 Size: 159592
 MD5sum: 7a5460e865ee19c145914ebf9bb0d27d
 SHA1: 9976469dbb37e34b0cc4c1ae1e75cc36c2a97f54
@@ -3269,7 +3142,7 @@ Installed-Size: 3104
 Depends: libc++
 Breaks: libvpx-dev
 Replaces: libvpx-dev
-Filename: repo/pool/main/libvpx_1:1.15.2_x86_64.deb
+Filename: ./libvpx_1:1.15.2_x86_64.deb
 Size: 884200
 MD5sum: dc6d08a0d4dc126c5dc6a5b1c5462f7b
 SHA1: 0d262aaa129c693ec36d279a0d87908a0ddbf135
@@ -3283,7 +3156,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 4216
 Depends: libvpx (= 1:1.15.2)
-Filename: repo/pool/main/libvpx-static_1:1.15.2_x86_64.deb
+Filename: ./libvpx-static_1:1.15.2_x86_64.deb
 Size: 964768
 MD5sum: b89910b90d32bdd8d626238e7fc10a6c
 SHA1: 35c64fe3bd203351cadedb738876239cdb355625
@@ -3299,7 +3172,7 @@ Installed-Size: 1512
 Depends: giflib, libjpeg-turbo, libpng, libtiff, zlib
 Breaks: libwebp-dev
 Replaces: libwebp-dev
-Filename: repo/pool/main/libwebp_1.6.0-1_x86_64.deb
+Filename: ./libwebp_1.6.0-1_x86_64.deb
 Size: 394092
 MD5sum: 563a91174cbc40603bbdb575cfe929f5
 SHA1: bb8bfa90fd874c176821861bb25bc069cd32d9b6
@@ -3313,7 +3186,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 1548
 Depends: libc++, abseil-cpp
-Filename: repo/pool/main/libwebrtc-audio-processing_1.3-3_x86_64.deb
+Filename: ./libwebrtc-audio-processing_1.3-3_x86_64.deb
 Size: 433480
 MD5sum: 71ebcc5fb9dba538525347f12e018a0f
 SHA1: ab357c050bb7335db65240d87c0df073818cd757
@@ -3328,7 +3201,7 @@ Maintainer: @termux
 Installed-Size: 13700
 Depends: libandroid-support, libxcb
 Recommends: xorg-xauth
-Filename: repo/pool/main/libx11_1.8.12-1_x86_64.deb
+Filename: ./libx11_1.8.12-1_x86_64.deb
 Size: 1931784
 MD5sum: 8a78e10b3551913e0fa1bc2ceadec901
 SHA1: e2e7794ee69fe0b658aef3e376bfd048f5f38b50
@@ -3342,7 +3215,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 2036
 Depends: libx11 (= 1.8.12-1)
-Filename: repo/pool/main/libx11-static_1.8.12-1_x86_64.deb
+Filename: ./libx11-static_1.8.12-1_x86_64.deb
 Size: 568896
 MD5sum: 7514b693d03f916cfbb137c99744c882
 SHA1: 7482b3ccf0ef6e3f37d314948d491f68b9b58fb5
@@ -3357,7 +3230,7 @@ Maintainer: @termux
 Installed-Size: 1284
 Breaks: libx264-dev
 Replaces: libx264-dev
-Filename: repo/pool/main/libx264_1:0.164.3191-1_x86_64.deb
+Filename: ./libx264_1:0.164.3191-1_x86_64.deb
 Size: 379260
 MD5sum: a192f4d320585ae166abd029924b3455
 SHA1: bc966ed109c57ee73b3ff0cbce00869a1460d08c
@@ -3371,7 +3244,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 1708
 Depends: libx264 (= 1:0.164.3191-1)
-Filename: repo/pool/main/libx264-static_1:0.164.3191-1_x86_64.deb
+Filename: ./libx264-static_1:0.164.3191-1_x86_64.deb
 Size: 394552
 MD5sum: 71480c27292c32071f1f6e8dc73a444b
 SHA1: 77d33c2409fbfedc997b487b8e282f88e1e2e29a
@@ -3387,7 +3260,7 @@ Installed-Size: 5840
 Depends: libandroid-posix-semaphore, libc++
 Breaks: libx265-dev
 Replaces: libx265-dev
-Filename: repo/pool/main/libx265_4.1-1_x86_64.deb
+Filename: ./libx265_4.1-1_x86_64.deb
 Size: 812300
 MD5sum: ceafeb6cec0fbcbffb4d7bc45cfdca48
 SHA1: 969d6d4dc99cc59a28bdca2d1e8f6788780545fc
@@ -3401,7 +3274,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 7656
 Depends: libx265 (= 4.1-1)
-Filename: repo/pool/main/libx265-static_4.1-1_x86_64.deb
+Filename: ./libx265-static_4.1-1_x86_64.deb
 Size: 901076
 MD5sum: 818c887d832529bc323a7daab2038dd7
 SHA1: 50e2e92b237742f5587f8f0a589cd19bc2f93496
@@ -3414,7 +3287,7 @@ Version: 1.0.12-2
 Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 128
-Filename: repo/pool/main/libxau_1.0.12-2_x86_64.deb
+Filename: ./libxau_1.0.12-2_x86_64.deb
 Size: 9252
 MD5sum: f79bc235861702920a069190768e3445
 SHA1: 44f3ead7d67a102eb086f1bf8afbacc1c18ba9f3
@@ -3429,7 +3302,7 @@ Maintainer: @termux
 Installed-Size: 12784
 Depends: libxau, libxdmcp
 Recommends: xorg-xauth
-Filename: repo/pool/main/libxcb_1.17.0-1_x86_64.deb
+Filename: ./libxcb_1.17.0-1_x86_64.deb
 Size: 908424
 MD5sum: 42df0df93f58bd9821bd4d87361b6373
 SHA1: 15d8a932292934fec72fc9f25b6157936e93e644
@@ -3443,7 +3316,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 1300
 Depends: libxcb (= 1.17.0-1)
-Filename: repo/pool/main/libxcb-static_1.17.0-1_x86_64.deb
+Filename: ./libxcb-static_1.17.0-1_x86_64.deb
 Size: 136864
 MD5sum: c27b1d92fe498589e94d4540d0540de0
 SHA1: 201da9bd0d743b3dd0b4a793fba65f353d335cce
@@ -3456,7 +3329,7 @@ Version: 1.1.5-2
 Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 196
-Filename: repo/pool/main/libxdmcp_1.1.5-2_x86_64.deb
+Filename: ./libxdmcp_1.1.5-2_x86_64.deb
 Size: 24412
 MD5sum: 8e20660b5398cd85aa1138cdcd8f98df
 SHA1: 83cb738a4a45e1fc343bc8fcee07617fb8b133bd
@@ -3470,7 +3343,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 60
 Depends: libxdmcp (= 1.1.5-2)
-Filename: repo/pool/main/libxdmcp-static_1.1.5-2_x86_64.deb
+Filename: ./libxdmcp-static_1.1.5-2_x86_64.deb
 Size: 7656
 MD5sum: 051f5e930a0c8894f8ce51f3e1f77e6d
 SHA1: 7abe88f41c1ef66f675503637422944b56640119
@@ -3484,7 +3357,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 612
 Depends: libx11
-Filename: repo/pool/main/libxext_1.3.6-1_x86_64.deb
+Filename: ./libxext_1.3.6-1_x86_64.deb
 Size: 96552
 MD5sum: a6142315db52872c405d0fe876456b01
 SHA1: 85f86306cc9051f79f3381ac37ca700786e3e753
@@ -3498,7 +3371,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 144
 Depends: libxext (= 1.3.6-1)
-Filename: repo/pool/main/libxext-static_1.3.6-1_x86_64.deb
+Filename: ./libxext-static_1.3.6-1_x86_64.deb
 Size: 22672
 MD5sum: b28fc212d7633c46fa7f6cbf606b5346
 SHA1: ff10df683befd6615678d1cd974da6bbdb6f4a00
@@ -3512,7 +3385,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 496
 Depends: fontconfig, freetype, libx11, libxrender
-Filename: repo/pool/main/libxft_2.3.9-1_x86_64.deb
+Filename: ./libxft_2.3.9-1_x86_64.deb
 Size: 49824
 MD5sum: c4ba36425fd547cfb6ab12337a32f035
 SHA1: 74a2cdb1fad301fd2a5b86f7dcc4669b92ba6dc2
@@ -3526,7 +3399,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 160
 Depends: libxft (= 2.3.9-1)
-Filename: repo/pool/main/libxft-static_2.3.9-1_x86_64.deb
+Filename: ./libxft-static_2.3.9-1_x86_64.deb
 Size: 36544
 MD5sum: 1774d0e4157c61a22073e2b3ccbfc7bd
 SHA1: 11d619ad7ea7a0bebc400577b4bc7b942d848cb5
@@ -3542,7 +3415,7 @@ Installed-Size: 1624
 Depends: libandroid-glob, libiconv, libicu, zlib
 Breaks: libxml2-dev
 Replaces: libxml2-dev
-Filename: repo/pool/main/libxml2_2.15.1_x86_64.deb
+Filename: ./libxml2_2.15.1_x86_64.deb
 Size: 469844
 MD5sum: a04bab940c12541b632185b57c1122d9
 SHA1: 09291c951cbe15f63ea3fbfd650d24501c986d0f
@@ -3556,7 +3429,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 252
 Depends: python, libxml2 (= 2.15.1)
-Filename: repo/pool/main/libxml2-python_2.15.1_x86_64.deb
+Filename: ./libxml2-python_2.15.1_x86_64.deb
 Size: 46932
 MD5sum: f3751fc0ee8f97c6ea604f23cc7ce5a8
 SHA1: ee790d0312b976c85cbbf593ee8359427f93a2dd
@@ -3571,7 +3444,7 @@ Maintainer: @termux
 Installed-Size: 136
 Depends: readline, libxml2 (= 2.15.1)
 Provides: xmllint
-Filename: repo/pool/main/libxml2-utils_2.15.1_x86_64.deb
+Filename: ./libxml2-utils_2.15.1_x86_64.deb
 Size: 34808
 MD5sum: 502f4fb6cb8b17a57b68c29b86e723a3
 SHA1: 8e91a1eb634c3a955cb91bceef84e27b2347e194
@@ -3585,7 +3458,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 164
 Depends: libx11
-Filename: repo/pool/main/libxrender_0.9.12-1_x86_64.deb
+Filename: ./libxrender_0.9.12-1_x86_64.deb
 Size: 24216
 MD5sum: ead965a00083599c6a4e3681f821e3e8
 SHA1: 8b755aeb1819878c904a679264ef712a43130de7
@@ -3601,7 +3474,7 @@ Installed-Size: 1772
 Depends: libgcrypt, libgpg-error, libxml2, libandroid-glob
 Breaks: libxslt-dev
 Replaces: libxslt-dev
-Filename: repo/pool/main/libxslt_1.1.43-2_x86_64.deb
+Filename: ./libxslt_1.1.43-2_x86_64.deb
 Size: 237352
 MD5sum: 13e31752eb860fb4b143318819cb404d
 SHA1: 21c494768f61c637020d258ac1f4a39a95ba7527
@@ -3615,7 +3488,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 144
 Depends: libx11, libxau, libxcb, libxdmcp, libxext
-Filename: repo/pool/main/libxss_1.2.5_x86_64.deb
+Filename: ./libxss_1.2.5_x86_64.deb
 Size: 11836
 MD5sum: ee7bb4f50ae9c66b1a8881ff0b0c4986
 SHA1: c2d37e2ec51dcb3f172efd220995f60515fe4b30
@@ -3629,7 +3502,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 44
 Depends: libxss (= 1.2.5)
-Filename: repo/pool/main/libxss-static_1.2.5_x86_64.deb
+Filename: ./libxss-static_1.2.5_x86_64.deb
 Size: 4072
 MD5sum: 620b83ff6ed1281b0edebc0a10c47371
 SHA1: 0422a4a7196d7e8c5ba5ac6bb9a94589cea87132
@@ -3643,7 +3516,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 996
 Depends: libc++
-Filename: repo/pool/main/libzimg_3.0.6_x86_64.deb
+Filename: ./libzimg_3.0.6_x86_64.deb
 Size: 230864
 MD5sum: a01e91e547749537b8d111af1b4c3fe8
 SHA1: a753c57018e6ea17229e94744beea482cc8ebfbe
@@ -3657,7 +3530,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 2424
 Depends: libzimg (= 3.0.6)
-Filename: repo/pool/main/libzimg-static_3.0.6_x86_64.deb
+Filename: ./libzimg-static_3.0.6_x86_64.deb
 Size: 324840
 MD5sum: 4667a2cf4f923c55aa41102ea06a8974
 SHA1: 63854306ef3f06d15f70e421103e0b4c80c241ee
@@ -3670,7 +3543,7 @@ Version: 0.6.2-1
 Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 216
-Filename: repo/pool/main/libzix_0.6.2-1_x86_64.deb
+Filename: ./libzix_0.6.2-1_x86_64.deb
 Size: 37140
 MD5sum: 8b0ac735b867dd2631ba1d425c82e576
 SHA1: 93f695e90da34bf382071637f612ea137833916b
@@ -3686,7 +3559,7 @@ Installed-Size: 996
 Depends: libc++, libsodium
 Breaks: libzmq-dev
 Replaces: libzmq-dev
-Filename: repo/pool/main/libzmq_4.3.5-2_x86_64.deb
+Filename: ./libzmq_4.3.5-2_x86_64.deb
 Size: 333332
 MD5sum: 6530255625613e002a7188d99d9b0380
 SHA1: 984ef3d6c1222c5f59439a4e43551b0ad6b455b1
@@ -3700,7 +3573,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 3136
 Depends: libzmq (= 4.3.5-2)
-Filename: repo/pool/main/libzmq-static_4.3.5-2_x86_64.deb
+Filename: ./libzmq-static_4.3.5-2_x86_64.deb
 Size: 352028
 MD5sum: aa61ea0bbb9712b61d93a5cea96a32dd
 SHA1: ac5a0254c8286e2a53b5db8731a9dcc1480d0528
@@ -3715,7 +3588,7 @@ Maintainer: @termux
 Installed-Size: 544
 Breaks: littlecms-dev
 Replaces: littlecms-dev
-Filename: repo/pool/main/littlecms_2.17-1_x86_64.deb
+Filename: ./littlecms_2.17-1_x86_64.deb
 Size: 147960
 MD5sum: 8e762d4c3a3bdd55ec96abb93d433f5a
 SHA1: 515cd42ecc079a5c83c8e2823a78a4cee4a00142
@@ -3729,7 +3602,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 660
 Depends: littlecms (= 2.17-1)
-Filename: repo/pool/main/littlecms-static_2.17-1_x86_64.deb
+Filename: ./littlecms-static_2.17-1_x86_64.deb
 Size: 147832
 MD5sum: 8513f35875a8d06610eddcac87d140da
 SHA1: b06613e6249ab6aeb1fbe2e9b1c61ebb96c55a08
@@ -3743,7 +3616,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 180
 Depends: libjpeg-turbo, libtiff, littlecms (= 2.17-1)
-Filename: repo/pool/main/littlecms-utils_2.17-1_x86_64.deb
+Filename: ./littlecms-utils_2.17-1_x86_64.deb
 Size: 36092
 MD5sum: 1beceb2865cc5bcd1d650837da4e4d1d
 SHA1: 857647ac70406e2a2f6e534cff088c0777c67d79
@@ -3757,7 +3630,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 400
 Depends: libandroid-support, libtirpc
-Filename: repo/pool/main/lsof_4.99.5-2_x86_64.deb
+Filename: ./lsof_4.99.5-2_x86_64.deb
 Size: 128616
 MD5sum: 6454252ac6d14d656c4f2880ffacdb1f
 SHA1: 03a8d7c40fe9e4cb304e05d544ae921c7f095855
@@ -3771,7 +3644,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 276
 Depends: lsof (= 4.99.5-2)
-Filename: repo/pool/main/lsof-static_4.99.5-2_x86_64.deb
+Filename: ./lsof-static_4.99.5-2_x86_64.deb
 Size: 57480
 MD5sum: d6a161797ec8146ddc89703ef6497842
 SHA1: 6c6e9c308cb15377f65b89e9e80c188a1da2290f
@@ -3785,7 +3658,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 1444
 Depends: libxml2, libxslt, python, sord, python-pip, python-lxml
-Filename: repo/pool/main/lv2_1.18.10-5_x86_64.deb
+Filename: ./lv2_1.18.10-5_x86_64.deb
 Size: 98876
 MD5sum: 6341916c01e4409cf776f432ad4daaae
 SHA1: 2466561eb013fe9a32d8ecbeb4cd7a8787c7dac2
@@ -3799,7 +3672,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 308
 Depends: liblz4 (= 1.10.0-1)
-Filename: repo/pool/main/lz4_1.10.0-1_x86_64.deb
+Filename: ./lz4_1.10.0-1_x86_64.deb
 Size: 111268
 MD5sum: 48e82ef8f14d58134f03697b6c780702
 SHA1: 566159bd545274dfb6ac8ebdae90ea7c52205f38
@@ -3815,7 +3688,7 @@ Installed-Size: 936
 Conflicts: make-guile
 Breaks: make-dev
 Replaces: make-dev
-Filename: repo/pool/main/make_4.4.1-1_x86_64.deb
+Filename: ./make_4.4.1-1_x86_64.deb
 Size: 248180
 MD5sum: d4e5c2a239b5c92b8fbd7d3b4a6d007f
 SHA1: a4fc219d3e826b6d73777bb609e9a551e8fc1b04
@@ -3830,7 +3703,7 @@ Maintainer: @termux
 Installed-Size: 556
 Depends: libblkid, libsmartcols, libmount
 Breaks: termux-tools (<= 1.34.1)
-Filename: repo/pool/main/mount-utils_2.41.2_x86_64.deb
+Filename: ./mount-utils_2.41.2_x86_64.deb
 Size: 148636
 MD5sum: 6a3df749f746189860b903afcaafcc7c
 SHA1: 829b1c67af5941266387c14e417d56717ac08d5a
@@ -3844,7 +3717,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 344
 Depends: pulseaudio, libmpg123 (= 1.33.3)
-Filename: repo/pool/main/mpg123_1.33.3_x86_64.deb
+Filename: ./mpg123_1.33.3_x86_64.deb
 Size: 101416
 MD5sum: d848d00419f2661c4244f614e3c62af8
 SHA1: aa25709afae66b7e305ed69076da277373ab77f4
@@ -3858,7 +3731,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 920
 Depends: libandroid-support, ncurses
-Filename: repo/pool/main/nano_8.6-1_x86_64.deb
+Filename: ./nano_8.6-1_x86_64.deb
 Size: 242568
 MD5sum: 45df37e4f08e83b41af8346d1f52aa7f
 SHA1: c99b6d2a88d42092c60d455fc415066dcb7b4ec4
@@ -3873,7 +3746,7 @@ Maintainer: @termux
 Installed-Size: 1596
 Breaks: ncurses-dev, ncurses-utils (<< 6.1.20190511-4)
 Replaces: ncurses-dev, ncurses-utils (<< 6.1.20190511-4)
-Filename: repo/pool/main/ncurses_6.5.20240831-3_x86_64.deb
+Filename: ./ncurses_6.5.20240831-3_x86_64.deb
 Size: 549984
 MD5sum: 1844cb057710b9937a850564fcc3eac7
 SHA1: 72860fe89f7408ce09e33e60457262230c9c9859
@@ -3887,7 +3760,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 752
 Depends: ncurses (= 6.5.20240831-3)
-Filename: repo/pool/main/ncurses-static_6.5.20240831-3_x86_64.deb
+Filename: ./ncurses-static_6.5.20240831-3_x86_64.deb
 Size: 156088
 MD5sum: 3ae41f95f8fb41bbfde9c565cd641415
 SHA1: cfe1080b84c2ac717130656cb0244240ba759ce1
@@ -3903,7 +3776,7 @@ Installed-Size: 144
 Depends: ncurses (= 6.5.20240831-3)
 Breaks: ncurses (<< 6.4)
 Replaces: ncurses (<< 6.4)
-Filename: repo/pool/main/ncurses-ui-libs_6.5.20240831-3_x86_64.deb
+Filename: ./ncurses-ui-libs_6.5.20240831-3_x86_64.deb
 Size: 35520
 MD5sum: 0568fc0a503e3b6374edc84311771b6f
 SHA1: 680cffff8c7da276ac03ca7790d702f7fec90ead
@@ -3917,7 +3790,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 240
 Depends: ncurses-ui-libs, ncurses (= 6.5.20240831-3)
-Filename: repo/pool/main/ncurses-ui-libs-static_6.5.20240831-3_x86_64.deb
+Filename: ./ncurses-ui-libs-static_6.5.20240831-3_x86_64.deb
 Size: 39144
 MD5sum: 604ecdd3a1d699053aec02de61d9b917
 SHA1: cb7915e2bf9f97a6e42250ade71313b03cd46747
@@ -3931,7 +3804,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 268
 Depends: ncurses (= 6.5.20240831-3)
-Filename: repo/pool/main/ncurses-utils_6.5.20240831-3_x86_64.deb
+Filename: ./ncurses-utils_6.5.20240831-3_x86_64.deb
 Size: 91420
 MD5sum: e2cf3b849816ef40b8c19f2bb61bd596
 SHA1: 914b328952d2f76fae75b45a230009c018281db7
@@ -3944,7 +3817,7 @@ Version: 2.10.0-1
 Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 548
-Filename: repo/pool/main/net-tools_2.10.0-1_x86_64.deb
+Filename: ./net-tools_2.10.0-1_x86_64.deb
 Size: 119496
 MD5sum: 924c502f097f4097ade3945238a53be7
 SHA1: a4ad1f3fbd7b8410ebb82e4b2d595475dd91ea7c
@@ -3958,7 +3831,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 112
 Depends: libnettle (= 3.10.2-1)
-Filename: repo/pool/main/nettle_3.10.2-1_x86_64.deb
+Filename: ./nettle_3.10.2-1_x86_64.deb
 Size: 19192
 MD5sum: f0811bc3c13e7b9c3b6dcfda7b5e6cce
 SHA1: 0e9ffe7c65da8f58db35553173b67709b81e453a
@@ -3971,26 +3844,13 @@ Version: 2.3.4
 Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 968
-Filename: repo/pool/main/ocl-icd_2.3.4_x86_64.deb
+Filename: ./ocl-icd_2.3.4_x86_64.deb
 Size: 116868
 MD5sum: 696c587e304cb959f6e42ebe49fadace
 SHA1: 30110bcbbf758dae578a02385aa38e539774b0cb
 SHA256: 7b1999fc1bf208d178a429570ad9ed9d4a57d54fe8795d2cfe485d5bc766cfd6
 Homepage: https://github.com/OCL-dev/ocl-icd
 Description: OpenCL ICD Loader
-
-Package: opencl-headers
-Version: 2025.07.22
-Architecture: all
-Maintainer: @termux
-Installed-Size: 508
-Filename: repo/pool/main/opencl-headers_2025.07.22_all.deb
-Size: 42448
-MD5sum: fc6cdd17600b867c47d190f224fde967
-SHA1: 42149c3dae827e42e11d5f970639e241c38c5ec7
-SHA256: 3f4cbdb6c75c7c9459f7eb5742ee97e7277ce0ab40a28db32e07282c270bd44e
-Homepage: https://github.com/KhronosGroup/OpenCL-Headers
-Description: Khronos OpenCL-Headers
 
 Package: openmpt123
 Version: 0.8.3
@@ -4000,7 +3860,7 @@ Installed-Size: 380
 Depends: libflac, libsndfile, pulseaudio, libopenmpt (= 0.8.3)
 Breaks: libopenmpt (<< 0.8.2-1)
 Replaces: libopenmpt (<< 0.8.2-1)
-Filename: repo/pool/main/openmpt123_0.8.3_x86_64.deb
+Filename: ./openmpt123_0.8.3_x86_64.deb
 Size: 107760
 MD5sum: a405714cf2c7f601e77ed6511a16be2b
 SHA1: b43d2a4a3e820d8fc729b82b2c838c88bcfc32fb
@@ -4017,7 +3877,7 @@ Depends: ca-certificates, zlib
 Conflicts: libcurl (<< 7.61.0-1)
 Breaks: openssl-tool (<< 1.1.1b-1), openssl-dev
 Replaces: openssl-tool (<< 1.1.1b-1), openssl-dev
-Filename: repo/pool/main/openssl_1:3.5.2_x86_64.deb
+Filename: ./openssl_1:3.5.2_x86_64.deb
 Size: 2130000
 MD5sum: 3557777452f2f0f895e538114abfe6fe
 SHA1: db88d75f2c199f69a22001b0559547f69466acb1
@@ -4031,7 +3891,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 12212
 Depends: openssl (= 1:3.5.2)
-Filename: repo/pool/main/openssl-static_1:3.5.2_x86_64.deb
+Filename: ./openssl-static_1:3.5.2_x86_64.deb
 Size: 2173152
 MD5sum: 59d0c28341ab645a3306689ce68ae0be
 SHA1: cf16cb3f0c6cdd73676f13d25d1d010353a98e8c
@@ -4045,7 +3905,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 1000
 Depends: openssl (= 1:3.5.2)
-Filename: repo/pool/main/openssl-tool_1:3.5.2_x86_64.deb
+Filename: ./openssl-tool_1:3.5.2_x86_64.deb
 Size: 300840
 MD5sum: 26e48e6c56a2ba4b07b42f8bf78b2a84
 SHA1: 8205ba5b3ab905e9dafec6453bcfe95b39bfc220
@@ -4058,7 +3918,7 @@ Version: 2.8-1
 Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 212
-Filename: repo/pool/main/patch_2.8-1_x86_64.deb
+Filename: ./patch_2.8-1_x86_64.deb
 Size: 79000
 MD5sum: ab8bf8d259afd99d771fced6453ef6d6
 SHA1: 3096501abddc9177042a669419840572fa504c80
@@ -4073,7 +3933,7 @@ Maintainer: @termux
 Installed-Size: 4528
 Breaks: pcre2-dev
 Replaces: pcre2-dev
-Filename: repo/pool/main/pcre2_10.47_x86_64.deb
+Filename: ./pcre2_10.47_x86_64.deb
 Size: 1020580
 MD5sum: 3e7ca62267b7b34c84ea36b91b3c21dd
 SHA1: 357875e3d65c98a92d9488859e7bbe50136a98b7
@@ -4087,7 +3947,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 2128
 Depends: pcre2 (= 10.47)
-Filename: repo/pool/main/pcre2-static_10.47_x86_64.deb
+Filename: ./pcre2-static_10.47_x86_64.deb
 Size: 431156
 MD5sum: 459a6aeeba68b393e8f7d4f560c6a2c0
 SHA1: 015e2ae2e0523934186607f0ad7b9e46db04ec0d
@@ -4101,7 +3961,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 100
 Depends: pcre2 (= 10.47)
-Filename: repo/pool/main/pcre2grep_10.47_x86_64.deb
+Filename: ./pcre2grep_10.47_x86_64.deb
 Size: 34804
 MD5sum: 41ed0975fa17f0b8710469e81edabc57
 SHA1: 8c8799fb87ac2d54221235650bd5dfdb54f8c6fd
@@ -4115,7 +3975,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 70112
 Depends: libandroid-utimes
-Filename: repo/pool/main/perl_5.40.3-3_x86_64.deb
+Filename: ./perl_5.40.3-3_x86_64.deb
 Size: 14985796
 MD5sum: 17046856846926284d94b1eaf53e8dc8
 SHA1: 079c659c28b960e5501748e2efa91978454d9d34
@@ -4129,7 +3989,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 208
 Depends: libandroid-support, libassuan, libgpg-error, libiconv, ncurses
-Filename: repo/pool/main/pinentry_1.3.2-1_x86_64.deb
+Filename: ./pinentry_1.3.2-1_x86_64.deb
 Size: 49824
 MD5sum: b6e2ca5550790e0b2678719ab2b47040
 SHA1: fe556226717f8c18b5ab4ab3aee9f140e7e57c34
@@ -4143,7 +4003,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 136
 Depends: glib
-Filename: repo/pool/main/pkg-config_0.29.2-3_x86_64.deb
+Filename: ./pkg-config_0.29.2-3_x86_64.deb
 Size: 33444
 MD5sum: 7ab2e74294f39d52b038f9cc6e035a5d
 SHA1: 2f770ef68951b5fb1b6565bfa6566adb529302b2
@@ -4160,7 +4020,7 @@ Installed-Size: 676
 Depends: ncurses
 Breaks: procps-dev
 Replaces: procps-dev
-Filename: repo/pool/main/procps_3.3.17-6_x86_64.deb
+Filename: ./procps_3.3.17-6_x86_64.deb
 Size: 146716
 MD5sum: a6fe2fb336005f4a7b2b361e11cbfec1
 SHA1: 0bf4fc372cfa3bcd1a3b12b509d003811c366738
@@ -4174,7 +4034,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 152
 Depends: procps (= 3.3.17-6)
-Filename: repo/pool/main/procps-static_3.3.17-6_x86_64.deb
+Filename: ./procps-static_3.3.17-6_x86_64.deb
 Size: 28472
 MD5sum: 1097296b0dc46e5eb78fd73bebf20f5a
 SHA1: fc6d60dcdbbe822fe37699873fb72cda017a47a1
@@ -4189,7 +4049,7 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 332
 Depends: ncurses
-Filename: repo/pool/main/psmisc_23.7-1_x86_64.deb
+Filename: ./psmisc_23.7-1_x86_64.deb
 Size: 96520
 MD5sum: 914a3555383378725a9e08308557afcf
 SHA1: 5902541dbc2f7f981fb9c2851924762ac029f5f5
@@ -4205,7 +4065,7 @@ Installed-Size: 4136
 Depends: dbus, libandroid-execinfo, libandroid-glob, libc++, libltdl, libsndfile, libsoxr, libwebrtc-audio-processing, speexdsp
 Breaks: libpulseaudio-dev, libpulseaudio
 Replaces: libpulseaudio-dev, libpulseaudio
-Filename: repo/pool/main/pulseaudio_17.0-1_x86_64.deb
+Filename: ./pulseaudio_17.0-1_x86_64.deb
 Size: 914308
 MD5sum: 1a52cea8af519f1f9337f2d21a058ff9
 SHA1: e96c6cbf358437f9b06b68cf4aaf8b36ec38dcb0
@@ -4219,7 +4079,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 84
 Depends: glib, pulseaudio (= 17.0-1)
-Filename: repo/pool/main/pulseaudio-glib_17.0-1_x86_64.deb
+Filename: ./pulseaudio-glib_17.0-1_x86_64.deb
 Size: 6984
 MD5sum: c378b0086b7b9b43c3a513f59f1cccf3
 SHA1: 2137daf5ab77f3f522eb9b8e92159ca96180d727
@@ -4238,7 +4098,7 @@ Suggests: python-tkinter
 Breaks: python2 (<= 2.7.15), python-dev
 Replaces: python-dev
 Provides: python3
-Filename: repo/pool/main/python_3.12.12_x86_64.deb
+Filename: ./python_3.12.12_x86_64.deb
 Size: 7773748
 MD5sum: df561e01e6a56abb23a038d2fbfcb41c
 SHA1: bd6bb2260377cb2f217aef8330e895f75387c708
@@ -4246,29 +4106,13 @@ SHA256: 1143333009fa11a2da08312577ccee11f440650faea7551174dfb2cd401d7134
 Homepage: https://python.org/
 Description: Python 3 programming language intended to enable clear programs
 
-Package: python-ensurepip-wheels
-Version: 3.12.12
-Architecture: all
-Maintainer: @termux
-Installed-Size: 1840
-Depends: python (= 3.12.12)
-Breaks: python (<< 3.11.1-3)
-Replaces: python (<< 3.11.1-3)
-Filename: repo/pool/main/python-ensurepip-wheels_3.12.12_all.deb
-Size: 1801592
-MD5sum: 1bf0c3d03ad8eaa462eb6e591cdd4b9d
-SHA1: 843720848afce1bdc45dbd8a237c22306ccce600
-SHA256: 8c377fc223245868b22abb6f16362cec259de7ecfa29c88f76e99bd5b1a2cffc
-Homepage: https://python.org/
-Description: Wheels for Python ensurepip
-
 Package: python-lxml
 Version: 6.0.2
 Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 5120
 Depends: libxml2, libxslt, python, python-pip
-Filename: repo/pool/main/python-lxml_6.0.2_x86_64.deb
+Filename: ./python-lxml_6.0.2_x86_64.deb
 Size: 1119084
 MD5sum: 7503c7757c897b6b0244209eb0151f10
 SHA1: 90b0da4243439bf07772960aebaf04873f3e8cd4
@@ -4276,28 +4120,13 @@ SHA256: 0a51680b69e6f4c277fd203a5f8aa97444af321506502b34b0118d371ec27c8a
 Homepage: https://github.com/lxml/lxml
 Description: Python binding for the libxml2 and libxslt libraries
 
-Package: python-pip
-Version: 25.3
-Architecture: all
-Maintainer: @termux
-Installed-Size: 12908
-Depends: clang, make, pkg-config, python (>= 3.11.1-1)
-Breaks: python (<< 3.11.1-1)
-Filename: repo/pool/main/python-pip_25.3_all.deb
-Size: 2384776
-MD5sum: 76c92d47085e7ef6704914904eecf62c
-SHA1: ced29c17bc57f64e0c8aef3c373fd7a2eaf2c75d
-SHA256: 1a647d1e389164de79a4ae21a09cd2c796413ddbe03d4128ceddd30d290cb4c9
-Homepage: https://pip.pypa.io/
-Description: The PyPA recommended tool for installing Python packages
-
 Package: python-static
 Version: 3.12.12
 Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 46756
 Depends: python (= 3.12.12)
-Filename: repo/pool/main/python-static_3.12.12_x86_64.deb
+Filename: ./python-static_3.12.12_x86_64.deb
 Size: 6871580
 MD5sum: b957a89833edae0d2f7838a34dade9c7
 SHA1: a623795b6d4893f514843d0c30efeb0dc0410af8
@@ -4313,30 +4142,13 @@ Installed-Size: 11048
 Depends: tcl, tk, python (= 3.12.12)
 Breaks: python (<< 3.11.1-3)
 Replaces: python (<< 3.11.1-3)
-Filename: repo/pool/main/python-tkinter_3.12.12_x86_64.deb
+Filename: ./python-tkinter_3.12.12_x86_64.deb
 Size: 1218640
 MD5sum: ff423878c1e46ebd3c00fdbe33bc288f
 SHA1: 8c9a52a9f56d39e872cc56fc14ba596f4980d9f5
 SHA256: d19051d207ea3f97ff47f6a50b424db51e74d81ea6a5a33af7ab5b9a32f08e05
 Homepage: https://python.org/
 Description: Tkinter support for Python 3
-
-Package: python-xcbgen
-Version: 1.17.0-1
-Architecture: all
-Maintainer: @termux
-Installed-Size: 444
-Depends: xcb-proto (= 1.17.0-1)
-Recommends: python
-Breaks: xcb-proto (<< 1.15.2)
-Replaces: xcb-proto (<< 1.15.2)
-Filename: repo/pool/main/python-xcbgen_1.17.0-1_all.deb
-Size: 44560
-MD5sum: 7e02f19d65125b3c69787b4bafd4593b
-SHA1: 72562fb942dfe1bfa40a1e4e83c6fe9a2366ead7
-SHA256: d788f887105eb7856505ecf5d7a9806669164d638094cf625d0acac6c43a81c6
-Homepage: https://xcb.freedesktop.org/
-Description: The xcbgen Python module
 
 Package: pyunbound
 Version: 1.24.1-1
@@ -4345,7 +4157,7 @@ Maintainer: @termux
 Installed-Size: 264
 Depends: python, libunbound (= 1.24.1-1)
 Conflicts: unbound (<< 1.15.0-1)
-Filename: repo/pool/main/pyunbound_1.24.1-1_x86_64.deb
+Filename: ./pyunbound_1.24.1-1_x86_64.deb
 Size: 41988
 MD5sum: 5f1ed6c4b3979551687506202e608cb9
 SHA1: 5b838f352efec3d9ae5b1bd830a9b304e95a577c
@@ -4359,7 +4171,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 152
 Depends: libc++, zstd (= 1.5.7-1)
-Filename: repo/pool/main/pzstd_1.5.7-1_x86_64.deb
+Filename: ./pzstd_1.5.7-1_x86_64.deb
 Size: 45028
 MD5sum: 29faf79ccc5418999287d5741cc0b551
 SHA1: 7589d1b4d014bbaf4468c48adb2185d6b2240d3b
@@ -4372,7 +4184,7 @@ Version: 0.8.1
 Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 4644
-Filename: repo/pool/main/rav1e_0.8.1_x86_64.deb
+Filename: ./rav1e_0.8.1_x86_64.deb
 Size: 1340824
 MD5sum: c6b843dff312d1e6015460c6f94b1722
 SHA1: d894d6afe00e7dd87365f1cb658b2f7ad46d6a15
@@ -4388,7 +4200,7 @@ Installed-Size: 1920
 Depends: libandroid-support, ncurses
 Breaks: bash (<< 5.0), readline-dev
 Replaces: readline-dev
-Filename: repo/pool/main/readline_8.3.1-1_x86_64.deb
+Filename: ./readline_8.3.1-1_x86_64.deb
 Size: 302900
 MD5sum: 4bff4ea57429fec7d048eb5f1f7b45ef
 SHA1: 831f4491df5bc25d800dcdf87c173c15b7815bfd
@@ -4402,7 +4214,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 672
 Depends: readline (= 8.3.1-1)
-Filename: repo/pool/main/readline-static_8.3.1-1_x86_64.deb
+Filename: ./readline-static_8.3.1-1_x86_64.deb
 Size: 123092
 MD5sum: f659fe7e8a11a49a38bb9ff11e98e0c1
 SHA1: 9682d62109f6df8a5a7549887f06514066459507
@@ -4415,7 +4227,7 @@ Version: 1.3
 Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 48
-Filename: repo/pool/main/resolv-conf_1.3_x86_64.deb
+Filename: ./resolv-conf_1.3_x86_64.deb
 Size: 1000
 MD5sum: 7addd3772cd78efdb2dc9ad2c5bc9d98
 SHA1: 8b77c42da6578034c46d63153a34590a69b0f4ca
@@ -4429,7 +4241,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 1596
 Depends: fftw, libc++, libsamplerate, libsndfile
-Filename: repo/pool/main/rubberband_4.0.0-1_x86_64.deb
+Filename: ./rubberband_4.0.0-1_x86_64.deb
 Size: 224604
 MD5sum: b2b14d449673db610004e668e27e3ca5
 SHA1: bfc2a7dbcf9553b2d639c95c0816c25b441cd44f
@@ -4445,7 +4257,7 @@ Installed-Size: 368
 Depends: ladspa-sdk, rubberband (= 4.0.0-1)
 Breaks: rubberband (<< 3.1.2-1)
 Replaces: rubberband (<< 3.1.2-1)
-Filename: repo/pool/main/rubberband-ladspa_4.0.0-1_x86_64.deb
+Filename: ./rubberband-ladspa_4.0.0-1_x86_64.deb
 Size: 106328
 MD5sum: 01d4dd2bfef5d668af78064b6446c147
 SHA1: c132a0eda426a0632e7bdb6ebea4e096acac3cb0
@@ -4461,7 +4273,7 @@ Installed-Size: 368
 Depends: lv2, rubberband (= 4.0.0-1)
 Breaks: rubberband (<< 3.1.2-1)
 Replaces: rubberband (<< 3.1.2-1)
-Filename: repo/pool/main/rubberband-lv2_4.0.0-1_x86_64.deb
+Filename: ./rubberband-lv2_4.0.0-1_x86_64.deb
 Size: 107252
 MD5sum: 79b893223e86f7b38ef850fdeb12354e
 SHA1: 1e7f53888332feb3886d6440f418196eaef2b3cc
@@ -4475,7 +4287,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 9336
 Depends: rubberband (= 4.0.0-1)
-Filename: repo/pool/main/rubberband-static_4.0.0-1_x86_64.deb
+Filename: ./rubberband-static_4.0.0-1_x86_64.deb
 Size: 1100296
 MD5sum: 9e4e97620f93e3c3398b19f31c0e13a6
 SHA1: feaf6e8cba93c07b04c457bdeb98108e6111cd74
@@ -4491,7 +4303,7 @@ Installed-Size: 324
 Depends: vamp-plugin-sdk, rubberband (= 4.0.0-1)
 Breaks: rubberband (<< 3.1.2-1)
 Replaces: rubberband (<< 3.1.2-1)
-Filename: repo/pool/main/rubberband-vamp_4.0.0-1_x86_64.deb
+Filename: ./rubberband-vamp_4.0.0-1_x86_64.deb
 Size: 101716
 MD5sum: 3c1d0a29494f1212ea95b91bbd8aa5fd
 SHA1: d243e64e0a522201ab913442273263bdbf022df4
@@ -4507,7 +4319,7 @@ Installed-Size: 508
 Depends: libgcrypt, libksba, libgpg-error, libassuan, libnpth, libusb, gnupg (= 2.5.11)
 Conflicts: gnupg (<< 2.3.3-2)
 Replaces: gnupg (<< 2.3.3-2)
-Filename: repo/pool/main/scdaemon_2.5.11_x86_64.deb
+Filename: ./scdaemon_2.5.11_x86_64.deb
 Size: 197856
 MD5sum: 77781fe101afcc2e0bb7ccf23667dc73
 SHA1: 97a5770eabe049225c9eb80fe1893cadcd607ab5
@@ -4521,7 +4333,7 @@ Architecture: x86_64
 Essential: yes
 Maintainer: @termux
 Installed-Size: 416
-Filename: repo/pool/main/sed_4.9-2_x86_64.deb
+Filename: ./sed_4.9-2_x86_64.deb
 Size: 124872
 MD5sum: 78a423716e0885ea33cc5388a2684a04
 SHA1: 8a4f294714f5a46591eb6765ca3201961cfcd360
@@ -4534,7 +4346,7 @@ Version: 0.32.4-1
 Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 204
-Filename: repo/pool/main/serd_0.32.4-1_x86_64.deb
+Filename: ./serd_0.32.4-1_x86_64.deb
 Size: 43520
 MD5sum: 62b003047f7d8c0e5608ce01253c6eb1
 SHA1: 231ba1bf79d8a838a5d67a9e397b307afdda6c36
@@ -4548,7 +4360,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 180
 Depends: pcre2, serd, libzix
-Filename: repo/pool/main/sord_0.16.18-1_x86_64.deb
+Filename: ./sord_0.16.18-1_x86_64.deb
 Size: 27676
 MD5sum: 62acb7e4956fef5c28b33965a924cf9e
 SHA1: 551dbe93a65609169ecbceba230e387be0c154d8
@@ -4563,7 +4375,7 @@ Maintainer: @termux
 Installed-Size: 172
 Breaks: speexdsp-dev
 Replaces: speexdsp-dev
-Filename: repo/pool/main/speexdsp_1.2.1-1_x86_64.deb
+Filename: ./speexdsp_1.2.1-1_x86_64.deb
 Size: 39172
 MD5sum: 2301a16dd281422d4fdc5cb4787cd95d
 SHA1: 43d4f0d993ad4d431a6808284fdd304a394622b3
@@ -4577,7 +4389,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 128
 Depends: speexdsp (= 1.2.1-1)
-Filename: repo/pool/main/speexdsp-static_1.2.1-1_x86_64.deb
+Filename: ./speexdsp-static_1.2.1-1_x86_64.deb
 Size: 34608
 MD5sum: 5e9acd53a215cc46bf31cf34c838c509
 SHA1: 6c2ddcb6827fdfe75c3549569c18d2159a454155
@@ -4585,26 +4397,13 @@ SHA256: eee8104971b90259d9100c7f4d102b0da1ee2850103b5b3b63d0c22d012bb0de
 Homepage: https://speex.org/
 Description: Static libraries for speexdsp
 
-Package: spirv-headers
-Version: 1.4.328.1
-Architecture: all
-Maintainer: @termux
-Installed-Size: 3628
-Filename: repo/pool/main/spirv-headers_1.4.328.1_all.deb
-Size: 155584
-MD5sum: cb09e08b8017d16915570ea3dcfa8a2e
-SHA1: 39a9558f7547af6516f78d941882c9b6302c8da9
-SHA256: b77ebd7c31f0adbe1505bdea3598e01c73776ec0ca91dc952586ca0fb81cbdea
-Homepage: https://github.com/KhronosGroup/SPIRV-Headers
-Description: SPIR-V Headers
-
 Package: spirv-tools
 Version: 1.4.328.1
 Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 38248
 Depends: libc++
-Filename: repo/pool/main/spirv-tools_1.4.328.1_x86_64.deb
+Filename: ./spirv-tools_1.4.328.1_x86_64.deb
 Size: 3971108
 MD5sum: c6d89b3de0ae355e2b38c6e31a714524
 SHA1: e2cb32734ed9bee7d7c5abf3be64541c301af58b
@@ -4618,7 +4417,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 1484
 Depends: readline, zlib
-Filename: repo/pool/main/sqlite_3.51.0_x86_64.deb
+Filename: ./sqlite_3.51.0_x86_64.deb
 Size: 668432
 MD5sum: 19678b3d393bee74f8d1f32702324b46
 SHA1: e184a52001172948a42281769c049ff741877fb0
@@ -4632,7 +4431,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 712
 Depends: libsrt (= 1.5.4-1)
-Filename: repo/pool/main/srt-tools_1.5.4-1_x86_64.deb
+Filename: ./srt-tools_1.5.4-1_x86_64.deb
 Size: 142676
 MD5sum: 712011a21202115086f8bfed6ab77771
 SHA1: 60f91c88fda453816def458b381d1c684e6ce3ce
@@ -4645,7 +4444,7 @@ Version: 3.1.2
 Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 7464
-Filename: repo/pool/main/svt-av1_3.1.2_x86_64.deb
+Filename: ./svt-av1_3.1.2_x86_64.deb
 Size: 2017172
 MD5sum: 2e6fdd734bcbee6c9a87883d56d1ba8f
 SHA1: f0b4942da329249a9ac36cd584d187b6b41106b6
@@ -4659,7 +4458,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 6944
 Depends: libc++, pcre2, zlib
-Filename: repo/pool/main/swig_4.4.0_x86_64.deb
+Filename: ./swig_4.4.0_x86_64.deb
 Size: 1002888
 MD5sum: 8745f39171a28000868b230a8fbfa886
 SHA1: a4fe06e39edeef072837123786cc59566fd73d46
@@ -4674,7 +4473,7 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 1248
 Depends: libandroid-glob, libiconv
-Filename: repo/pool/main/tar_1.35-1_x86_64.deb
+Filename: ./tar_1.35-1_x86_64.deb
 Size: 357756
 MD5sum: a1e3e40994d3a3b5a20ff8f15f7765bc
 SHA1: f354fb97f8e7eb6aef7055bafc9d57c5fe6da25d
@@ -4690,7 +4489,7 @@ Installed-Size: 7752
 Depends: zlib
 Breaks: tcl-dev, tcl-static
 Replaces: tcl-dev, tcl-static
-Filename: repo/pool/main/tcl_8.6.14-1_x86_64.deb
+Filename: ./tcl_8.6.14-1_x86_64.deb
 Size: 2309124
 MD5sum: 8e572cbeae07fc2c6d6d012b7d866267
 SHA1: 99b5088c5257ceb317da5fbf5ccae13ff85a6e27
@@ -4698,27 +4497,13 @@ SHA256: 074c1f2d92f4477fa0f53ba92730e7207e4bd33a28c8ac28111a75c5719040ba
 Homepage: https://www.tcl.tk/
 Description: Powerful but easy to learn dynamic programming language
 
-Package: termux-am
-Version: 0.8.0-1
-Architecture: all
-Maintainer: Michal Bednarski @michalbednarski
-Installed-Size: 620
-Conflicts: termux-tools (<< 0.51)
-Filename: repo/pool/main/termux-am_0.8.0-1_all.deb
-Size: 577376
-MD5sum: cc1b65282fdfb575290b98ea8341bd80
-SHA1: 47f90c99417af3a8bd4479fbaa7375504fc6e20d
-SHA256: d57d68b63411a8eb98a6eac046aea8c93222e765f8336d0d310771a812bdd717
-Homepage: https://github.com/BapuGYT/TermuxAm-Vkrm
-Description: Android Oreo-compatible am command reimplementation
-
 Package: termux-am-socket
 Version: 1.5.0-1
 Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 88
 Depends: libc++
-Filename: repo/pool/main/termux-am-socket_1.5.0-1_x86_64.deb
+Filename: ./termux-am-socket_1.5.0-1_x86_64.deb
 Size: 16528
 MD5sum: 4f8a617cc8358f0d94c8b637370229f4
 SHA1: 56051540bd7f04d435aa16997ac14a464d270215
@@ -4732,7 +4517,7 @@ Architecture: x86_64
 Essential: yes
 Maintainer: @termux
 Installed-Size: 2016
-Filename: repo/pool/main/termux-core_0.4.0-1_x86_64.deb
+Filename: ./termux-core_0.4.0-1_x86_64.deb
 Size: 220776
 MD5sum: b266e6c1becce99828a333f337c90fa2
 SHA1: 3a03c51cd3b11f032b150eb543fc466403fdf6ea
@@ -4746,7 +4531,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 128
 Depends: termux-core (= 0.4.0-1)
-Filename: repo/pool/main/termux-core-static_0.4.0-1_x86_64.deb
+Filename: ./termux-core-static_0.4.0-1_x86_64.deb
 Size: 19796
 MD5sum: b3abf71653a36c7ae86b3232e978af42
 SHA1: 95e209eeb8c1934f9e44949504ab626c15a9e8a0
@@ -4760,7 +4545,7 @@ Architecture: x86_64
 Essential: yes
 Maintainer: @termux
 Installed-Size: 2212
-Filename: repo/pool/main/termux-exec_1:2.4.0-1_x86_64.deb
+Filename: ./termux-exec_1:2.4.0-1_x86_64.deb
 Size: 330148
 MD5sum: 725f0c1791b1af0b191955b04240a052
 SHA1: 0cac9037677bc942eb5bc61a4706de5adfe5edcb
@@ -4774,41 +4559,13 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 72
 Depends: termux-exec (= 1:2.4.0-1)
-Filename: repo/pool/main/termux-exec-static_1:2.4.0-1_x86_64.deb
+Filename: ./termux-exec-static_1:2.4.0-1_x86_64.deb
 Size: 10588
 MD5sum: 30c1cc1fade974355e6a8672f88bbce8
 SHA1: 1bb74acb77eb3b737558192c76f5f50cc18f5acd
 SHA256: 2590b04e0db211599a963ca5a2c7ae72ffcf3d2a7dcb3b4c8f181c5f928eca4b
 Homepage: https://github.com/termux/termux-exec-package
 Description: Static libraries for termux-exec
-
-Package: termux-keyring
-Version: 3.13
-Architecture: all
-Essential: yes
-Maintainer: @termux
-Installed-Size: 192
-Filename: repo/pool/main/termux-keyring_3.13_all.deb
-Size: 39792
-MD5sum: 9f3b5886f19b08fac6223bb6fb7362a2
-SHA1: 14a8e9d108f199a47279cc52f986be6ed2a233b9
-SHA256: 647913c962141f33c63733879a13a0a2398f20987a1dbd7a437b1c76ea44574d
-Homepage: https://github.com/termux
-Description: GPG public keys for the official Termux repositories
-
-Package: termux-licenses
-Version: 2.1
-Architecture: all
-Essential: yes
-Maintainer: @termux
-Installed-Size: 612
-Filename: repo/pool/main/termux-licenses_2.1_all.deb
-Size: 52520
-MD5sum: 68c82ac2a3a2996a8a1682ff43e6800c
-SHA1: 929058e76351dbe4ca51e26f42eb4bf6f04e38a9
-SHA256: aaf40f3f6e728498b6a7e7466e769ce20a90726c9cf85d6144cc96c8243ece59
-Homepage: https://termux.dev
-Description: Contains LICENSE files for common licenses
 
 Package: termux-tools
 Version: 1.46.0+really1.45.0-1
@@ -4821,7 +4578,7 @@ Recommends: ed, dos2unix, inetutils, net-tools, patch, unzip
 Suggests: termux-api
 Conflicts: procps (<< 3.3.15-2)
 Breaks: termux-keyring (<< 1.9)
-Filename: repo/pool/main/termux-tools_1.46.0+really1.45.0-1_x86_64.deb
+Filename: ./termux-tools_1.46.0+really1.45.0-1_x86_64.deb
 Size: 33532
 MD5sum: 3e5e9803c2f0313b181e38a1f2b5c1fc
 SHA1: ffa01074b0806238de2747f9dfab8ee5cde34077
@@ -4836,7 +4593,7 @@ Maintainer: @termux
 Installed-Size: 10264
 Depends: gawk, libiconv, ncurses, perl
 Recommends: update-info-dir
-Filename: repo/pool/main/texinfo_7.2-4_x86_64.deb
+Filename: ./texinfo_7.2-4_x86_64.deb
 Size: 1147028
 MD5sum: 5bec40881e2f8df0918d424ab13f9e20
 SHA1: d625897177cd5b0b2ebbd6b2b82251e55434cdc6
@@ -4850,7 +4607,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 5564
 Depends: fontconfig, libx11, libxft, libxss, tcl
-Filename: repo/pool/main/tk_8.6.14-1_x86_64.deb
+Filename: ./tk_8.6.14-1_x86_64.deb
 Size: 1792476
 MD5sum: dbb770edf7e81f671b4609e67a6b1efd
 SHA1: ec9ab2e0ebc582e427bbb140445abf8be536f362
@@ -4864,7 +4621,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 24572
 Depends: libevent, liblzma, openssl, resolv-conf, zlib
-Filename: repo/pool/main/tor_0.4.8.19_x86_64.deb
+Filename: ./tor_0.4.8.19_x86_64.deb
 Size: 3113660
 MD5sum: 01b9203a45c40207909248cd0aa4372a
 SHA1: 3e7bc4c014b5385b88fe4a7038a727951412eb5a
@@ -4872,26 +4629,13 @@ SHA256: f4e900c0cbb9981ec59c92dd77165d23080faf98dca1790e3b0de49019493752
 Homepage: https://www.torproject.org
 Description: The Onion Router anonymizing overlay network
 
-Package: ttf-dejavu
-Version: 2.37-8
-Architecture: all
-Maintainer: @termux
-Installed-Size: 10108
-Filename: repo/pool/main/ttf-dejavu_2.37-8_all.deb
-Size: 2464520
-MD5sum: 2daaf6c7685dc94ad8be74d32b907dbd
-SHA1: 4c04cfeab685080bbc1ec621f040dfee3adea029
-SHA256: 8110760b0f95eb310114e126be8f3da0215fc8b5ec57e226d52212edd7c00d82
-Homepage: https://dejavu-fonts.github.io/
-Description: Font family based on the Bitstream Vera Fonts with a wider range of characters
-
 Package: unbound
 Version: 1.24.1-1
 Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 3476
 Depends: libexpat, libunbound (= 1.24.1-1)
-Filename: repo/pool/main/unbound_1.24.1-1_x86_64.deb
+Filename: ./unbound_1.24.1-1_x86_64.deb
 Size: 681752
 MD5sum: f4907c6692ce98d2d0af09c866529e13
 SHA1: e6bb3a1cee1c0d69e02de0fca9f455f73187737f
@@ -4905,27 +4649,13 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 324
 Depends: libbz2
-Filename: repo/pool/main/unzip_6.0-10_x86_64.deb
+Filename: ./unzip_6.0-10_x86_64.deb
 Size: 117564
 MD5sum: 21745a56d42af34357f64cb1971d2fc8
 SHA1: 1a277f9543bcce6fed53c938d7a168586a041c1a
 SHA256: 62245fe09f012f7771450cb99c934bb6e17fff97b5b64100ebdf98b852a67ade
 Homepage: https://sourceforge.net/projects/infozip/
 Description: Tools for working with zip files
-
-Package: update-info-dir
-Version: 7.2-4
-Architecture: all
-Maintainer: @termux
-Installed-Size: 48
-Depends: texinfo (= 7.2-4)
-Filename: repo/pool/main/update-info-dir_7.2-4_all.deb
-Size: 2464
-MD5sum: b1b366b98f7215858bfc411225551fed
-SHA1: 9d978eaf7aa6d486e9730d8fd8e5503ffd6e4f77
-SHA256: 54e2b4a32b7db0ed48c83263ecaa794e421bfe6be5018e6880c756527181c235
-Homepage: https://www.gnu.org/software/texinfo/
-Description: Update or create index file from all installed info files in directory
 
 Package: util-linux
 Version: 2.41.2
@@ -4936,7 +4666,7 @@ Installed-Size: 4340
 Depends: libandroid-glob, libandroid-posix-semaphore, libcap-ng, libsmartcols, ncurses, zlib
 Breaks: util-linux-dev
 Replaces: util-linux-dev
-Filename: repo/pool/main/util-linux_2.41.2_x86_64.deb
+Filename: ./util-linux_2.41.2_x86_64.deb
 Size: 799544
 MD5sum: fd721d1d5a60bd2763c42ad1c256f37f
 SHA1: 693ce63d0d46d4ac9149d9af9d98e1a349fe85e5
@@ -4950,7 +4680,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 3268
 Depends: util-linux (= 2.41.2)
-Filename: repo/pool/main/util-linux-static_2.41.2_x86_64.deb
+Filename: ./util-linux-static_2.41.2_x86_64.deb
 Size: 443616
 MD5sum: b7ece82b8132c71d8018b709d39b4eb3
 SHA1: 52dacf819520276dbedaf999ca0d4da6c16cf945
@@ -4964,7 +4694,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 228
 Depends: libsmartcols, libuuid
-Filename: repo/pool/main/uuid-utils_2.41.2_x86_64.deb
+Filename: ./uuid-utils_2.41.2_x86_64.deb
 Size: 42012
 MD5sum: e83d44aec0808b427ebe477d07b27b76
 SHA1: 02724d0e0567968171b2cea1a69ac2e8ec4cfd96
@@ -4978,7 +4708,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 980
 Depends: libc++, libsndfile
-Filename: repo/pool/main/vamp-plugin-sdk_2.10-3_x86_64.deb
+Filename: ./vamp-plugin-sdk_2.10-3_x86_64.deb
 Size: 168428
 MD5sum: f4057efaa1959e17d62e34f838db7e02
 SHA1: cb75c933b158fb5a9cb5452ed0743c4517a97a81
@@ -4992,7 +4722,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 1020
 Depends: vamp-plugin-sdk (= 2.10-3)
-Filename: repo/pool/main/vamp-plugin-sdk-static_2.10-3_x86_64.deb
+Filename: ./vamp-plugin-sdk-static_2.10-3_x86_64.deb
 Size: 107452
 MD5sum: 93b82ef294a906d572c03e09a66ac225
 SHA1: c25949fc36ddb65932b9cb98f73299b19fd6aadb
@@ -5000,40 +4730,13 @@ SHA256: fda19836d602a33c4892c23d7c407ff909b1b4f921b088b5268dedc7799f6783
 Homepage: https://www.vamp-plugins.org/
 Description: Static libraries for vamp-plugin-sdk
 
-Package: vulkan-headers
-Version: 1.4.332
-Architecture: all
-Maintainer: @termux
-Installed-Size: 33256
-Filename: repo/pool/main/vulkan-headers_1.4.332_all.deb
-Size: 1678392
-MD5sum: ba2623a122254020b2c60406e343332c
-SHA1: f43df216c7b0ef7c9427c71cdab2d68461866c26
-SHA256: 922905f67f597f4dbfa8d8a181490443bd81fcc3d2cf9189b8514f82c92d8fb5
-Homepage: https://github.com/KhronosGroup/Vulkan-Headers
-Description: Vulkan Header files and API registry
-
-Package: vulkan-icd
-Version: 0.1
-Architecture: all
-Maintainer: @termux
-Installed-Size: 4
-Depends: mesa-vulkan-icd-swrast | mesa-vulkan-icd-freedreno | swiftshader
-Filename: repo/pool/main/vulkan-icd_0.1_all.deb
-Size: 720
-MD5sum: f09de5f3941ab672824bc3ac79d16eca
-SHA1: d5bbecd2b610d1f609a5dc9737b86b067b4f0f3a
-SHA256: 1ef810227128b9bfb219028b0853c79a088a9420099aa3dd4a777ab5e10dbc06
-Homepage: https://github.com/termux/termux-packages
-Description: A metapackage that provides Vulkan ICDs
-
 Package: x264
 Version: 1:0.164.3191-1
 Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 1348
 Depends: libx264 (= 1:0.164.3191-1)
-Filename: repo/pool/main/x264_1:0.164.3191-1_x86_64.deb
+Filename: ./x264_1:0.164.3191-1_x86_64.deb
 Size: 405184
 MD5sum: bdab911156206ab1720240aa6b858a4a
 SHA1: 2db079d0ec5310faeb9335d3622cfebc2d5e853d
@@ -5047,7 +4750,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 180
 Depends: libx265 (= 4.1-1)
-Filename: repo/pool/main/x265_4.1-1_x86_64.deb
+Filename: ./x265_4.1-1_x86_64.deb
 Size: 44676
 MD5sum: a9e1be7dc3b2f6d481288f361050990b
 SHA1: 4bd49e2464c53fb34bf2bd076c858675da2910db
@@ -5055,76 +4758,19 @@ SHA256: 59431c10844bbb16508fcdac6e8365f0e4952e58bb899937fca71284b14fe09f
 Homepage: http://x265.org/
 Description: H.265/HEVC video stream encoder tool
 
-Package: xcb-proto
-Version: 1.17.0-1
-Architecture: all
-Maintainer: @termux
-Installed-Size: 812
-Conflicts: xcbproto
-Replaces: xcbproto
-Filename: repo/pool/main/xcb-proto_1.17.0-1_all.deb
-Size: 78596
-MD5sum: 7ac07b73d93193b0d8b525e12aa138d6
-SHA1: 62930bdcee699320e70ecf89c72ab1112ccdd9d5
-SHA256: 6b0d015b03b844e3cf1001b391bc92307ddece024cd1b326474e640861f655e2
-Homepage: https://xcb.freedesktop.org/
-Description: XML-XCB protocol descriptions
-
-Package: xorg-util-macros
-Version: 1.20.2
-Architecture: all
-Maintainer: @termux
-Installed-Size: 144
-Filename: repo/pool/main/xorg-util-macros_1.20.2_all.deb
-Size: 21964
-MD5sum: 0a22863b2102b3235d40d202d3082e55
-SHA1: 350d7e9fc2e2b054d4e56ae26da4ee19dd80041c
-SHA256: 5756b73809bb10c50834c426f1791c6ffeef5dcdcd8f35d59302a3307b6a2df6
-Homepage: https://xorg.freedesktop.org/
-Description: X.Org Autotools macros
-
-Package: xorgproto
-Version: 2024.1
-Architecture: all
-Maintainer: @termux
-Installed-Size: 2280
-Depends: xorg-util-macros
-Conflicts: x11-proto
-Replaces: x11-proto
-Filename: repo/pool/main/xorgproto_2024.1_all.deb
-Size: 247800
-MD5sum: a7eeb7655a088722d26fc30b951a3843
-SHA1: 7107cf90d2f04fce7483144a306db98dba0d2c18
-SHA256: f2ecb305fedeed62368f95ae9f73dc2342f2f886b4c6d36011aa96108a6c8e34
-Homepage: https://xorg.freedesktop.org/
-Description: X.Org X11 Protocol headers
-
 Package: xsltproc
 Version: 1.1.43-2
 Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 68
 Depends: libxslt (= 1.1.43-2)
-Filename: repo/pool/main/xsltproc_1.1.43-2_x86_64.deb
+Filename: ./xsltproc_1.1.43-2_x86_64.deb
 Size: 11956
 MD5sum: 02ca6d4ba2134ff9b048a7979256636a
 SHA1: deafa45ef633a0cdaf85e0212a2516b37da1a8e9
 SHA256: b2d61d76ebdb1b530c5fd7d32a69a144eb59990dfe25bf306c1eb6a70ee3b0ef
 Homepage: http://xmlsoft.org/libxslt/
 Description: XSLT command line processor
-
-Package: xtrans
-Version: 1.6.0
-Architecture: all
-Maintainer: @termux
-Installed-Size: 296
-Filename: repo/pool/main/xtrans_1.6.0_all.deb
-Size: 39860
-MD5sum: dfe4cecbb87f0e5ca7b99d571d7838c3
-SHA1: c4747b363b8d1e8d7f7e553eb5db58bcc03b48ed
-SHA256: b391a15170020061bcc754a123e31422548578cba54d2a524c5385963617b17b
-Homepage: https://xorg.freedesktop.org/
-Description: X transport library
 
 Package: xvidcore
 Version: 1.3.7-1
@@ -5133,7 +4779,7 @@ Maintainer: @termux
 Installed-Size: 648
 Breaks: xvidcore-dev
 Replaces: xvidcore-dev
-Filename: repo/pool/main/xvidcore_1.3.7-1_x86_64.deb
+Filename: ./xvidcore_1.3.7-1_x86_64.deb
 Size: 171204
 MD5sum: 1db26ca316572c78329f37d3356bb929
 SHA1: daa9d265928a8c1ab3434e03d5fd4856388d8ef6
@@ -5147,7 +4793,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 920
 Depends: xvidcore (= 1.3.7-1)
-Filename: repo/pool/main/xvidcore-static_1.3.7-1_x86_64.deb
+Filename: ./xvidcore-static_1.3.7-1_x86_64.deb
 Size: 185524
 MD5sum: d52d5f186ea93eb29b49f8f0a420364a
 SHA1: f563e12ee50ead896c8567b70997675272e21b40
@@ -5160,7 +4806,7 @@ Version: 0.8.3-1
 Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 416
-Filename: repo/pool/main/xxhash_0.8.3-1_x86_64.deb
+Filename: ./xxhash_0.8.3-1_x86_64.deb
 Size: 78836
 MD5sum: 8f11d71b1c0103c62a6b7b34c345fc98
 SHA1: 8abc6eab4415174ab084be5f93104c3bd6f6a1a7
@@ -5174,7 +4820,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 52
 Depends: xxhash (= 0.8.3-1)
-Filename: repo/pool/main/xxhash-static_0.8.3-1_x86_64.deb
+Filename: ./xxhash-static_0.8.3-1_x86_64.deb
 Size: 8152
 MD5sum: ca81011bdcc6b71d6a3869cd9998732b
 SHA1: 7afe64f9d6ad0185d3de7ed846aa480191ea9e67
@@ -5189,7 +4835,7 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 228
 Depends: liblzma (= 5.8.1-1)
-Filename: repo/pool/main/xz-utils_5.8.1-1_x86_64.deb
+Filename: ./xz-utils_5.8.1-1_x86_64.deb
 Size: 72164
 MD5sum: ca15ce1345b5306ee8dd52d048c84165
 SHA1: 785739a84bc87dc87e25dfba335af955c2031b0a
@@ -5204,7 +4850,7 @@ Maintainer: @termux
 Installed-Size: 264
 Breaks: ndk-sysroot (<< 19b-3), zlib-dev
 Replaces: ndk-sysroot (<< 19b-3), zlib-dev
-Filename: repo/pool/main/zlib_1.3.1-1_x86_64.deb
+Filename: ./zlib_1.3.1-1_x86_64.deb
 Size: 70672
 MD5sum: 072719ce2b1e9e5d6a406bc4b148fa97
 SHA1: c2581bc13e75b321aa619d4a43ec1edc85359fd7
@@ -5218,7 +4864,7 @@ Architecture: x86_64
 Maintainer: @termux
 Installed-Size: 140
 Depends: zlib (= 1.3.1-1)
-Filename: repo/pool/main/zlib-static_1.3.1-1_x86_64.deb
+Filename: ./zlib-static_1.3.1-1_x86_64.deb
 Size: 43736
 MD5sum: 3fe9ff01139b2c7f9ad638f89c39e5ff
 SHA1: 859cbc117684622b82880ec881a5b66de09d3222
@@ -5234,7 +4880,7 @@ Installed-Size: 1492
 Depends: liblzma, zlib
 Breaks: zstd-dev
 Replaces: zstd-dev
-Filename: repo/pool/main/zstd_1.5.7-1_x86_64.deb
+Filename: ./zstd_1.5.7-1_x86_64.deb
 Size: 450420
 MD5sum: 54b5e94c2281aedf54ef54eb01750823
 SHA1: c008f4856296cd18add24862b6d02c01b8fffea5
