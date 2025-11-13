@@ -1,23 +1,23 @@
 Architectures: aarch64
 Codename: stable
 Components: main
-Date: Thu, 13 Nov 2025 17:42:35 +0000
+Date: Thu, 13 Nov 2025 18:00:01 +0000
 Label: vkrm-termux-repo
 Origin: vkrm-termux-repo
 Suite: stable
 MD5Sum:
- 9c4b8b59334bd27c07358041b5c72316              158 Release
+ b0a5614b71283dca4117d9cf8de9666b              158 Release
  902101c44adfc23a31914b56cb6f558b           842512 main/binary-aarch64/Packages
- 4618272a03493f97462873ee4389c9a9           176011 main/binary-aarch64/Packages.gz
+ 4fc0980d3d67164bdb295f897cd9ea69           176011 main/binary-aarch64/Packages.gz
 SHA1:
- 1dfb255eb899c5bdb4b6ecfa3538accc85b86fb3              158 Release
+ 87b473dd1a531a9d707c92b42d3ce44507697a02              158 Release
  95f080a1493aad953114f7024cb9b2e3427730eb           842512 main/binary-aarch64/Packages
- 1625303e0a4b8fe8bc3cd9b9de98a4022624bacb           176011 main/binary-aarch64/Packages.gz
+ 8a43fe6b23d2759c7f2d19e8c41274b128cab301           176011 main/binary-aarch64/Packages.gz
 SHA256:
- d240a64c261086797c40efc5eebb43956976b8a87dbfed704a006d9e1284b8e4              158 Release
+ d9a5a4435561cfa26a9b3a43f24d43109e7fafba8f80b522734e2ac95043b854              158 Release
  cea8424750d745029f6492768044a2bdb9ad69abae8546212fb8973ad356a53e           842512 main/binary-aarch64/Packages
- 99da4a0c1e971049dc5f930203305a2a13985e6bae34a374ade61619cf084405           176011 main/binary-aarch64/Packages.gz
+ 7145d13474575c453b64a5a79a3cbdf939c1b480bda5ce7ccf04f47d99d84b27           176011 main/binary-aarch64/Packages.gz
 SHA512:
- ae4b02ebe29bf13e955a6530634ce42f12f774e9a18ab81ceac66e732646399702b0be48ed0140d8fdd5bde9063a17eb2ca9750b18348cc18ded3bd89425d1c8              158 Release
+ 6e7616b211075e1f9c5a84127dd507255ff23a60a6459d705acb1e2ed0e460e290b443d3d18199373729f554564a8f873ce7d87b0bd952463fe678b98343051e              158 Release
  35fda5ae8731a95ae13d40be5efb102d71698cf5b26d3bc5a46744c1926e46f8534ec652387233af25a20b45856c36fce7518eb3cacc9c2672881a2693301899           842512 main/binary-aarch64/Packages
- ba5842b32f3e3edc94d6c211b4d8d063cd2c8e78b2573e9e33bc45a3200e8777fa57e33b93c653d4ed69356f65b3a6ea9a7601e9753222082f227ee9f62bf079           176011 main/binary-aarch64/Packages.gz
+ 22f8e32e88c91a669094a2006945720b12c65a5742b2604ddc36fcf709bb5dc3d916c11f3c08e5748a7d404ee78b5c8b1f5ecfda5544407b74a722aa0001d83c           176011 main/binary-aarch64/Packages.gz
