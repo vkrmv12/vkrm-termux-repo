@@ -1505,6 +1505,22 @@ SHA256: 0c48d9843682618a4890f7189b4cd1dfb6786742c642ddac5a73a616533a1f2c
 Homepage: https://libcheck.github.io/check
 Description: Static libraries for check
 
+Package: clang
+Version: 21.1.5
+Architecture: aarch64
+Maintainer: @finagolfin
+Installed-Size: 178424
+Depends: libcompiler-rt, lld, llvm, ndk-sysroot, libllvm (= 21.1.5)
+Breaks: libllvm (<< 16.0.0), clangd
+Replaces: libllvm (<< 16.0.0), clangd
+Filename: pool/main/clang_21.1.5_aarch64.deb
+Size: 29540528
+MD5sum: ee38bc704bc93a4e7edb6653369610d6
+SHA1: 63e0437aac8ede714a83bc488a913b8698abf64d
+SHA256: be087b7c45205ba64e0b3661bc84208c97d456561b65049fea4a26576f3fb6e1
+Homepage: https://clang.llvm.org/
+Description: C language frontend for LLVM
+
 Package: command-not-found
 Version: 3.2-3
 Architecture: aarch64
