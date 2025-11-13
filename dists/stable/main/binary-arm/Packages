@@ -1,0 +1,16 @@
+Package: abseil-cpp
+Architecture: arm
+Version: 20250814.0
+Maintainer: @termux
+Installed-Size: 6932
+Depends: libc++
+Conflicts: libgrpc (<< 1.52.0-1)
+Filename: pool/main/a/apt-ftparchive/apt-ftparchive_2.8.1-2_arm.deb/pool/main/a/abseil-cpp/abseil-cpp_20250814.0_arm.deb
+Size: 1020348
+MD5sum: 22189a06d4e27dbd3d0adf5c560714ea
+SHA1: 97ab1a352531bc297076b5b0bba803c205d8ad6a
+SHA256: c242c9954aabd3c4c02475a86b1a86a5c81bac7b746ccfc96f1775c5f344e015
+SHA512: 271c61b29fa3912828c8040a80db01403bdfc8242f847752a2be14b95a1da13a0a4ad990216c4e8fccf1eb26144682d2b1337ad1f07476f969d06b427382a637
+Homepage: https://abseil.io/
+Description: Abseil C++ Common Libraries
+
