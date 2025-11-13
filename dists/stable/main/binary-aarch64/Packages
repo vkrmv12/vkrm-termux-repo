@@ -21033,13 +21033,13 @@ Version: 25.3
 Architecture: all
 Maintainer: @termux
 Installed-Size: 12908
-Depends: clang, make, pkg-config, python (>= 3.11.1-1)
+Depends: make, pkg-config, python (>= 3.11.1-1)
 Breaks: python (<< 3.11.1-1)
 Filename: pool/main/python-pip_25.3_all.deb
-Size: 2384776
-MD5sum: 76c92d47085e7ef6704914904eecf62c
-SHA1: ced29c17bc57f64e0c8aef3c373fd7a2eaf2c75d
-SHA256: 1a647d1e389164de79a4ae21a09cd2c796413ddbe03d4128ceddd30d290cb4c9
+Size: 2384804
+MD5sum: d142590b7c69673783cad39d0f9cad7c
+SHA1: 488e6dffa5db1ddfd06ff908c9c9537be1e03448
+SHA256: e997f55a5518d069f71e9b0352eb982ef3db68059d57002f224aabf1abf9fbe0
 Homepage: https://pip.pypa.io/
 Description: The PyPA recommended tool for installing Python packages
 
