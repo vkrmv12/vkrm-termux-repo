@@ -2744,14 +2744,14 @@ Package: ffmpeg-lite
 Version: 7.1.2
 Architecture: aarch64
 Maintainer: @termux
-Installed-Size: 8656
+Installed-Size: 8688
 Depends: libandroid-glob
 Conflicts: ffmpeg, libav
 Filename: pool/main/ffmpeg-lite_7.1.2_aarch64.deb
-Size: 2350680
-MD5sum: 1968f74a08fffb0a7162d84334341cb7
-SHA1: 96b62789519135d502a1057edc2426674cd235bc
-SHA256: 20f39abe7bd1ad5681964fac3a36627f5f4b266a38ebab2b342c26d7d3e6fa33
+Size: 2366560
+MD5sum: aeb5caa97c238c1152e1c22472a77996
+SHA1: a9ae8495cb25fa4e2161cf2378765beb81537e5e
+SHA256: 6da4d343fd36d38f5b386d366d5b346777e01f7ffd7348af2cf0b6d0f9a05fa7
 Homepage: https://ffmpeg.org
 Description: Lite ffmpeg build for local MP4/WebM/HLS merging (no network, minimal deps)
 
