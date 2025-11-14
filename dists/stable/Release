@@ -1,12 +1,6 @@
-Architectures: aarch64
-Codename: stable
-Components: main
-Date: Fri, 14 Nov 2025 04:38:39 +0000
-Label: vkrm-termux-repo
-Origin: vkrm-termux-repo
-Suite: stable
+Date: Fri, 14 Nov 2025 04:43:36 +0000
 MD5Sum:
- b787b6cb2f945f433af59ca428ad7913              158 Release
+ aa00177a4ab46ee13b2290691ae3d404               38 Release
  993182fd1ec01e67fb0c9e9bdbc35271           842965 main/binary-aarch64/Packages
  ce3c9b5bbdf8d22dac0f88af56fe1687           176287 main/binary-aarch64/Packages.gz
  83ee4941912a7e4c2864e1863ba05ee3           186022 main/binary-arm/Packages
@@ -16,7 +10,7 @@ MD5Sum:
  df2280a315fc7a9a5d7747426b412697           188093 main/binary-x86_64/Packages
  694e780ae7018b443318ffa0fc941c64            58531 main/binary-x86_64/Packages.gz
 SHA1:
- d7790064bf58dc65f2bb4dad15d4f69e214239e0              158 Release
+ 8244053efa15b7db3ac5fd26331f74d090b22330               38 Release
  bd04f559681088517dcb56a42e7517197cd99727           842965 main/binary-aarch64/Packages
  8385efb0ff8e331b013f29dc8294d182095bfc48           176287 main/binary-aarch64/Packages.gz
  e4c5cfe019ba30d8e401046fb2094681f1b0a1fc           186022 main/binary-arm/Packages
@@ -26,7 +20,7 @@ SHA1:
  8f1418afa70f81cadbf011de8519d43db58151c6           188093 main/binary-x86_64/Packages
  d71a24b7130410d7b0c5702f4c89171cb0e7610f            58531 main/binary-x86_64/Packages.gz
 SHA256:
- fd4b6a0fbf71cc101f1d3de4e7af052404f7d1b01531f2ed33cebdc94f523b7b              158 Release
+ b0edfdc586493172d548e226185fee4e0c564a4c2a7b6dcf482db1898678a539               38 Release
  600b36f3ad361995f9d627510342d598693574018de22451d2b7b12a1046ef7f           842965 main/binary-aarch64/Packages
  b2fbc17f473e83ca9c6a6b0606f397d5202b16c294694aef2dbe1758a9968810           176287 main/binary-aarch64/Packages.gz
  266e3b9c158c80cde0ea8eeecf88245fc8df2c6e365e8f3411f569e3f78c1e2e           186022 main/binary-arm/Packages
@@ -36,7 +30,7 @@ SHA256:
  6d6726a0236503325ea0cc48a6deec6e55d779dbe152530baaceef06ca806405           188093 main/binary-x86_64/Packages
  370b082fcfbcfe17eed96a9ea92f7457a1fbe7c657cb34b9b072ea3c3fbb203f            58531 main/binary-x86_64/Packages.gz
 SHA512:
- ac94e467a434c220859414c6a1c3abf68aa60d8ce5c9d83e8d0ed766ab89da78a5ad137ce54ca53c87d40c0b2709bf5783ee9817fefb9d4e2369886dafdff83c              158 Release
+ 6559abfeb071b51dbbd3657ada0e675cbd1c38f14e97aa8af448f0601d6ba6e47ebb0db0f2e429aeec27b0525d66a05ad60fdbf3ed0936e20b0b26de44245f30               38 Release
  b2774c9366e00e61cc55ac80a9a608d49dec9fd659feaa79ef1575ed12ef55e2f235b84c8511ce4412ab421a3917d7f9a1ad1af2dc9b8df9301a7c26682be407           842965 main/binary-aarch64/Packages
  8c20495d40b2b06d0f20a5b4acda856c4123c0dd35b9302ffd29c0d26f29e9d72a54e24e89ebcbc1ae430ca8ea95316fbea59f26c7c0d0e757dceeafb0e630d0           176287 main/binary-aarch64/Packages.gz
  b444de6ea459c6a4689d30e096a856e64e42089c9d682f619bac3228a2e88a6b9b5b0c16981109d4d2fcc3db3200bc1b14b9b6ca0d97883b705963276cbd76cb           186022 main/binary-arm/Packages
