@@ -149,16 +149,16 @@ Architecture: aarch64
 Essential: yes
 Maintainer: @termux
 Installed-Size: 4008
-Depends: coreutils, dpkg, findutils, gpgv, grep, libandroid-glob, libbz2, libc++, libiconv, libgcrypt, libgnutls, liblz4, liblzma, sed, termux-keyring, termux-licenses, xxhash, zlib, zstd
+Depends: coreutils, dpkg, findutils, gpgv, grep, libandroid-glob, libbz2, libc++, libiconv, libgcrypt, libgnutls, liblz4, liblzma, sed, vkrm-keyring, termux-licenses, xxhash, zlib, zstd
 Suggests: gnupg
 Conflicts: apt-transport-https, libapt-pkg, unstable-repo, game-repo, science-repo
 Replaces: apt-transport-https, libapt-pkg, unstable-repo, game-repo, science-repo
 Provides: unstable-repo, game-repo, science-repo
 Filename: pool/main/apt_2.8.1-2_aarch64.deb
-Size: 1030600
-MD5sum: 03d9059a734f3503a79d9feccd410026
-SHA1: 99a238d8df9ffcd2901019433b0ef843dfebc000
-SHA256: abf50a7f6c923a26b5226050c6a9fbf046d0933d720c45ee8c0784f62521d775
+Size: 1031268
+MD5sum: 7536137248963c06da5e678b0902ae07
+SHA1: c01492f07e5b2236d40b9543797b9f56a1960a4a
+SHA256: b22e2d6b27279ceb506e90384b0e44d8049e3edd976e3f4d47c258d4669f9bc8
 Homepage: https://packages.debian.org/apt
 Description: Front-end for the dpkg package manager
 
@@ -24320,6 +24320,20 @@ SHA1: 3f0f1aea61e8f02c03719aee3fd7af5be650d92c
 SHA256: 03f127d3525af831a1d2c8da2e003a6ed09e618ed7f1325bd74b435130686018
 Homepage: https://www.vamp-plugins.org/
 Description: Static libraries for vamp-plugin-sdk
+
+Package: vkrm-keyring
+Version: 1.0
+Architecture: all
+Essential: yes
+Maintainer: prolitebapug1@gmail.com
+Installed-Size: 60
+Filename: pool/main/vkrm-keyring_1.0_all.deb
+Size: 3248
+MD5sum: 07fae0ede1ce15544bdcb9db92db1474
+SHA1: 3afce6c7794db574393c4263afa92384b315ca2b
+SHA256: 4b627766a16caf899ad9fb1812d4e28b7c1973c80eb9441d8790f3df3f5e3187
+Homepage: https://github.com/vkrmv12/vkrm-termux-repo
+Description: GPG public key for the vkrm custom Termux repo
 
 Package: vulkan-headers
 Version: 1.4.332
